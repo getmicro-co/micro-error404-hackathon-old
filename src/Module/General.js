@@ -46,9 +46,9 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: "dumba",
   JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
+    "https://github.com/getmicro-co/micro-error404-hackathon",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    "https://github.com/getmicro-co/micro-error404-hackathon"
 };
 
 const SOCIALS = {
@@ -72,11 +72,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://www.google.com/forms/about/"
   },
   JOIN_TEAM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
+    src: "https://www.google.com/forms/about/"
   },
   Privacy_policy: {
     required: true,
@@ -168,7 +168,7 @@ const TeamInfo = [
     {
       Name: "Rehan",
       role: "Organizer",
-      github: "https://github.com/Limbo-Hacks/Hackathon-website-template",
+      github: "https://github.com/getmicro-co/micro-error404-hackathon",
       linkedin: "",
       img: me
     },
