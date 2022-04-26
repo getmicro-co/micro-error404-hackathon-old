@@ -1,0 +1,67 @@
+import React from "react";
+import "./top-division-c.css";
+import MytypedComponent from "../typing-effect/typing.js";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import Media from "../media/media";
+
+import {TOP_SECTION, SOCIALS} from "../../Module/General";
+
+function Btn(props) {
+  return (
+    <button className={props.class}>
+      <i className={props.ico}></i>
+      {props.type}
+      <div className="overlay">
+        <div className="overlay-text">{props.overlay}</div>
+      </div>
+    </button>
+  );
+}
+
+function About() {
+  return (
+    <div className="AboutMe">
+      <h2 className="h2">{TOP_SECTION.TITLE1}</h2>
+      <img className="error404" src={TOP_SECTION.img} alt="" />
+      <h2 className="h2">{TOP_SECTION.TITLE2}</h2>
+      <MytypedComponent />
+    </div>
+  );
+}
+
+function Myinfo() {
+  return (
+    <div className="Myinfo">
+      <About />
+      <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
+      <div className="join_dis">
+        {/* <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
+          <Btn
+            ico="fab fa-2x fa-discord"
+            class="join_disco"
+            type=""
+            overlay="Click the link"
+          />
+        </a> */}
+        {/* <Row className="mediaInfo"> */}
+            {/* <Col className="" sm={12} lg={12} md={12}> */}
+              <Media />
+            {/* </Col> */}
+        {/* </Row> */}
+      </div>
+      {/* This is judges application button */}
+      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        {" "}
+        <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
+      </a>
+
+      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+        {" "}
+        <Btn class="register" type="Register " overlay="Hackers registration" />
+      </a>
+    </div>
+  );
+}
+
+export {Btn, Myinfo};
