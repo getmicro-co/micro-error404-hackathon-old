@@ -84,7 +84,7 @@ p {
   width: 0;
   height: 100%;
   transition: .3s ease;
-  border-radius: 12px;
+  border-radius: 19px;
 }
 
 .overlay-text {
@@ -101,7 +101,8 @@ p {
 }
 
 button:hover .overlay {
-  width: 100%;
+  width: 22rem;
+  height: 6rem;
   left: 0;
 }
 

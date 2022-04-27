@@ -1,11 +1,11 @@
 import React from "react";
 import "./top-division-c.css";
 import MytypedComponent from "../typing-effect/typing.js";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import Media from "../media/media";
+// import { Row } from "react-bootstrap";
+// import { Col } from "react-bootstrap";
+// import Media from "../media/media";
 
-import {TOP_SECTION, SOCIALS} from "../../Module/General";
+import {TOP_SECTION,} from "../../Module/General";
 
 function Btn(props) {
   return (
@@ -46,20 +46,34 @@ function Myinfo() {
         </a> */}
         {/* <Row className="mediaInfo"> */}
             {/* <Col className="" sm={12} lg={12} md={12}> */}
-              <Media />
+              {/* <Media /> */}
             {/* </Col> */}
         {/* </Row> */}
-      </div>
-      {/* This is judges application button */}
-      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-        {" "}
-        <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
-      </a>
 
+      {/* This is top division buttons */}
       <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
         {" "}
-        <Btn class="register" type="Register " overlay="Hackers registration" />
+        <Btn class="sponsor" type="Register" overlay="Fill the form" />
       </a>
+      <a href={TOP_SECTION.DISCORD_LINK}>
+        {" "}
+        <Btn class="register" type="Join Discord" overlay="Stay updated" />
+      </a>
+
+      
+      <a href={TOP_SECTION.MENTOR_FORM_LINK}>
+        {" "}
+        <Btn class="sponsor" type=" Call for Mentor's" overlay="Guide the students" />
+      </a>
+
+      <a href={TOP_SECTION.SPONSOR_FORM_LINK}>
+        {" "}
+        <Btn class="register" type="Sponsors" overlay="Sponsor us" />
+        {/* top division buttons ends here */}
+      </a>
+      </div>
+
+
     </div>
   );
 }

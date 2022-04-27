@@ -1,5 +1,6 @@
 import React from "react";
 import "./team.css";
+import { SocialIcon } from 'react-social-icons';
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
 
 function JoinTeam({placeholder, formLink, content}) {
@@ -14,18 +15,15 @@ function JoinTeam({placeholder, formLink, content}) {
 }
 
 function Member({info}) {
-  const {github,role,name,img, linkedin} = info;
+  const {role,Name,img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="Limbo hack"></img>
+      <img src={img} alt="error404"></img>
       <div className="members-link">
-        <h3>{name}</h3>
+        <h3>{Name}</h3>
         <p>{role}</p>
-        <a href={github}>
-          <i class="fab fa-2x fa-github"></i>
-        </a>
         <a href={linkedin}>
-          <i class="fab fa-2x fa-linkedin"></i>
+        <SocialIcon url={linkedin} fgColor="#fff" />
         </a>
       </div>
     </div>

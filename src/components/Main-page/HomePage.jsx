@@ -6,10 +6,10 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
-import {Prizeinfo} from "../../Module/General";
+import {Prizeinfo,Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-
+import CountDown from "../count-down/countDown.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
 import {Member, JoinTeam} from "../team/team.jsx";
@@ -99,16 +99,16 @@ export default function HomePage(props) {
             </Col>
           </Row>
 
-          {/* <Row className="mediaInfo">
-            <Col className="" sm={12} lg={12} md={12}>
-              <Media />
-            </Col>
-          </Row> */}
         </Container>
       </div>
       <Container fluid>
+          <Row className="mediaInfo" id="countdown">
+            <Col className="" sm={12} lg={12} md={12}>
+              <CountDown />
+            </Col>
+          </Row>
         {/* Logo section  */}
-        <Row className=" logoSection">
+        <Row className=" logoSection" id="about">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
@@ -117,24 +117,21 @@ export default function HomePage(props) {
           </Col>
         </Row>
 
-        <Row className="prizesection non-coding">
-          <PrizeHeading type="Schedule" />
-          <h2>coming soon</h2>
+        <Row className="prizesection non-coding" id="tracks">
+          <PrizeHeading type="Tracks" />
+          <hr className="hr"/>
+          {Tracks.map(PrizeGroup)}
         </Row>
-
-         {/* ********Frequently asked Questions here ***** */}
-         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Frequently Asked Questions" />
-          <div className="Myfaqs" id="faq">
-            {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          </div>  
-        </Row>
-        {/* ********Frequently asked Questions ending here ***** */}
        
+        <Row className="prizesection non-coding" id="timeline">
+          <PrizeHeading type="Timeline" />
+          <hr className="hr"/>
+        </Row>
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Prize Categories" />
+          <hr className="hr"/>
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
@@ -152,34 +149,53 @@ export default function HomePage(props) {
         <Birds top="120vh" left="0vh" type="" />
 
         {/* ********Team here ***** */}
-        <section className="slant">
+        <section className="slant" id="team">
         <div className="slanted-div">         
-          <h1 id="team">Our Team</h1>
-          {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Interested in joining our team" />}
+          <h1 className="team" id="team">Our Team</h1>
+          {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Work with us." />}
         </div>
         <div>
+          
           {TeamInfo.map(TeamMembers)}
-
         </div>
-      </section>
+        </section>
         {/* ********Team ending here ***** */}
-
-
 
 
         {/* ********Judges here ***** */}
-
-        <section className="slant" >
-        <div className="slanted-div">         
-           <h1 id="team">Judges</h1>
+        <section className="slant"  id="team">
+         <div className="slanted-div">         
+           <h1 className="team" id="judges">Judges</h1>
            {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being judge" />}
-        </div>
-        <div>
-          {JudgesInfo.map(TeamMembers)}
-        </div>
-      </section>
-        
+         </div>
+         <div>
+           {JudgesInfo.map(TeamMembers)}
+         </div>
+        </section>
         {/* ********Team ending here ***** */}
+
+
+
+         {/* ********Frequently asked Questions here ***** */}
+         <Row className="prizesection" id="faq">
+          <PrizeHeading type="Frequently Asked Questions" />
+          <hr className="hr"/>
+          <div className="Myfaqs">
+            {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          </div>  
+        </Row>
+        {/* ********Frequently asked Questions ending here ***** */}  
+         
+         {/* ********Frequently asked Questions here ***** */}
+         <Row className="prizesection" id="contact">
+          <PrizeHeading type="Contact Us" classNamehr />
+          <div className="contact">
+            
+          </div>  
+        </Row>
+        {/* ********Frequently asked Questions ending here ***** */}  
+
+
 
       </Container>
       <Footer />

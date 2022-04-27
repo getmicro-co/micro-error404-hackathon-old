@@ -10,7 +10,24 @@
     margin: 0 auto;
     text-align: left;
     margin-top: 1.7rem;
+    box-shadow: 3px 5px #d4d4d4;
+    transition: background-color 2s ease-out 100ms
 }
+.Prizes:hover{
+    border-radius: 5px;
+    background-color: #c8ccf4;
+    padding: 20px;
+    font-family: 'Poppins';
+    width: 32rem;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 1.7rem;
+    background-color: #48aff4;
+}
+
+
+
 .PrizeHeading h1{
     font-family: 'Poppins' !important;
     padding-top: 40px;
@@ -22,7 +39,7 @@
 }
 
 .Prizes p{
-    color: rgb(145, 143, 143);
+    color: rgb(246, 246, 246);
 }
 .Prizes .first{
     color:#A239EA;

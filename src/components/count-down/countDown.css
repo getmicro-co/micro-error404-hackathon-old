@@ -1,21 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
 .counter{
+
+   font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
     display: block;
-    background-color: white;
-    color: black;
-    width: fit-content;
-    height: fit-content;
-    padding: 0px 30px;
+    background-color: #f3effe;
+    color: rgb(0, 0, 0);
+    padding: 30px;
     border-radius: 8px;
     text-align: center;
     margin: 30px 0;
-  border: 1px solid rgb(255, 194, 252);
-  font-weight: 300;
+    font-size: 7rem;
+    
+    font-weight: 900;
 }
-.counter p{
-    font-family: 'Montserrat', sans-serif;
+
+
+.countdown{
+  color: rgb(255, 0, 0);
+}
+.counter h1{
+  font-size: 7rem;
+  font-weight: 900;
+}
+.counter h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.counterDetails{
     font-weight: 300;
-    display: inline-block;
+    font-size: 2rem ;
 }
+
+.rocket{
+  position: absolute;
+  z-index: 1;
+  left: 300px;
+  top: -20rem;
+}
+
+
+
+
+
+
 @media  (max-width: 570px){
 .counter{
   margin: 30px auto;

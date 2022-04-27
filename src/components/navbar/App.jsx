@@ -5,9 +5,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
 import {TOP_SECTION,FOOTER} from "../../Module/General";
-import {Btn} from "../Top-division-components/Top-division-components";
+// import {Btn} from "../Top-division-components/Top-division-components";
 import styled from "styled-components";
-import toggler from "../toggle-button/toggle";
+// import toggler from "../toggle-button/toggle";
 import "./styles.scss";
 
 const Wrapper = styled.div`
@@ -90,23 +90,23 @@ const NAVBAR = ({}) => {
                 </Link>
               </li>
               <li>
-                <Link to={`#team`}>
+                <Link to={`#about`}>
                   <span className="links">About</span>{" "}
                 </Link>
               </li>
               <li>
-                <Link to={`#prizes`}>
-                  <span className="links">Schedule </span>{" "}
+                <Link to={`#tracks`}>
+                  <span className="links">Tracks</span>{" "}
+                </Link>
+              </li>
+              <li>
+                <Link to={`#timeline`}>
+                  <span className="links">Timeline</span>{" "}
                 </Link>
               </li>
               <li>
                 <Link to={`#prizes`}>
                   <span className="links">Prizes </span>{" "}
-                </Link>
-              </li>
-              <li>
-                <Link to={`#faq`}>
-                  <span className="links">FAQ </span>{" "}
                 </Link>
               </li>
               <li>
@@ -119,6 +119,16 @@ const NAVBAR = ({}) => {
                   <span className="links">Team </span>{" "}
                 </Link>
               </li>
+              <li>
+                <Link to={`#faq`}>
+                  <span className="links">FAQ </span>{" "}
+                </Link>
+              </li>
+              <li>
+                <Link to={`#contact`}>
+                  <span className="links">Contact </span>{" "}
+                </Link>
+              </li>
               <img
                 className="s-close"
                 onClick={() => setToggle(true)}
@@ -127,11 +137,11 @@ const NAVBAR = ({}) => {
             <toggle/>
             </ul>
           </div>
-            {FOOTER.VOLUNTEERING_FORM.required && (
+            {/* {FOOTER.VOLUNTEERING_FORM.required && (
                 <a href={FOOTER.VOLUNTEERING_FORM.src}>
                   <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
                 </a>
-              )}
+              )} */}
 
           <div className="ease">
            </div>

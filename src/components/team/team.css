@@ -4,6 +4,7 @@
   position: relative;
   top:0px;
   transition: top 0.2s linear;
+  z-index: 1;
 }
 .member:hover{
     top: -5px;
@@ -15,7 +16,7 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  border: 5px solid rgb(255, 194, 252);
+  border: 5px solid #6A63B7;
 }
 .members-link {
   text-align: center;

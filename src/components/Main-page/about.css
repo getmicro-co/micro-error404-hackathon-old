@@ -16,6 +16,7 @@
 h1 {
   text-align: center;
   font-size: 5rem;
+
 }
 .Row {
   text-align: center;
@@ -49,7 +50,7 @@ top: -50px;
 .prizesection {
   text-align: center;
   margin: 0 auto;
-  padding: 0 4vh 4vh;
+  padding: 0 4vh 15vh;
   margin: 17vh 14vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
@@ -67,7 +68,11 @@ top: -50px;
   margin-top: -16vh;
 }
 
-
+.team{
+   text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
 
 .slant{
   margin-top: 50px;
@@ -108,6 +113,16 @@ top: -50px;
   text-align: center;
   /* font-size: 1.5em; */
   line-height: 1.5;
+}
+
+.Myfaqs{
+  margin: 50px 0 0 0;
+}
+
+.hr{
+  height: 5px;
+    width: 35%;
+    background: #c8ccf4;
 }
 
 @media only screen

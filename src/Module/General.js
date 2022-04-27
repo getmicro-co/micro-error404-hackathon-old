@@ -25,6 +25,14 @@ import Ryah from "./Assets/teami/Ryah.jpg";
 import lyin from "./Assets/teami/lyin.jpg";
 import zoha from "./Assets/teami/zoha.png";
 
+import abhay from "./Assets/teami/AbhayKumar.jpg";
+import yash from "./Assets/teami/YashKataria.jpeg";
+import zak from "./Assets/teami/zakariya.png";
+import sid from "./Assets/teami/SiddhantPawar.jpeg";
+
+
+
+
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
@@ -40,14 +48,15 @@ const TOP_SECTION = {
   TITLE1: "Error",
   TITLE2:"Hackathon",
   img: Image404,
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  Typed_effect: ["72 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
-  DISCORD_LINK: "dumba",
-  JUDGES_FORM_LINK:
+  HACKERS_REGISTRATION_FORM_LINK: "dumba",
+  DISCORD_LINK: "https://discord.com/channels/967360776501329960/967360776501329963",
+  MENTOR_FORM_LINK:
     "https://github.com/getmicro-co/micro-error404-hackathon",
-  HACKERS_REGISTRATION_FORM_LINK:
+  SPONSOR_FORM_LINK:
     "https://github.com/getmicro-co/micro-error404-hackathon"
 };
 
@@ -62,7 +71,7 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Error 404 Hackathon?",
+  TITLE: "About",
   LONG_DESCRIPTION:
     "Error 404 is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Error 404 will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
@@ -88,6 +97,49 @@ const FOOTER = {
   }
 };
 
+const Tracks =  [
+  [
+    //Array 1
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "Artificial Intelligence",
+      content:
+        "First Overall prize will be given to a project that outstands all other submissions"
+    },
+    {
+      icon: <i class=" second fas fa-4x fa-medal"></i>,
+      type: "Blockchain",
+      content:
+        "Second Overall prize will be given to the second best project of the hackathon"
+    },
+    {
+      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: "AR/VR",
+      content:
+        "Best third overall project of the hackathon will win some awesome prizes"
+    }
+  ],
+  [
+    //Array 2
+    {
+      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+      type: "Web Development",
+      content:
+        "You project will qualify for this prize. if you participate alone without a team though."
+    },
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: " Mobile Development",
+      content: "Your project will qualify for this category if atleast 50% of the project is complete."
+    },
+
+  ],
+  
+];
+
+
+
+
 /** ICON
  *
  * icons are from fontawesome visit = https://fontawesome.com
@@ -105,19 +157,19 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      type: "First Place",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
+      type: "Second Place",
       content:
         "Second Overall prize will be given to the second best project of the hackathon"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      type: "Third Place",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
     }
@@ -126,32 +178,37 @@ const Prizeinfo = [
     //Array 2
     {
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
+      type: "Best Beginer",
       content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+        "You project will qualify for this prize. if you participate alone without a team though."
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
+      type: " Education",
+      content: "Your project will qualify for this category if atleast 50% of the project is complete."
     },
     {
       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
+      type: "Finance",
+      content: "Project with most creative financing ideas will be awarded with this award."
     }
   ],
   [
     //Array 3
     {
       icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
+      type: "Healthcare",
+      content: "Project with most creative financing ideas will be awarded with this award."
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later"
+      type: "Remote World",
+      content: "Project with most creative financing ideas will be awarded with this award."
+    },
+    {
+      icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
+      type: "Open Innovation",
+      content: "Project with most creative financing ideas will be awarded with this award."
     }
   ]
 ];
@@ -166,40 +223,41 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
-      role: "Organizer",
-      github: "https://github.com/getmicro-co/micro-error404-hackathon",
-      linkedin: "",
-      img: me
+      Name: "Siddhant Pawar",
+      role: "Program Manager",
+      linkedin: "https://www.linkedin.com/in/siddhant-pawar-398a05201/?originalSubdomain=in",
+      img: sid
     },
     {
-      Name: "Moon",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: moon
+      Name: "Zakariya Khan",
+      role: "Technical Lead",
+      linkedin: "https://www.linkedin.com/in/zakariya-khan-590281137/",
+      img: zak
     },
     {
-      Name: "Erika",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Ryah
+      Name: "Yash Kataria",
+      role: "Outreach Lead",
+      linkedin: "https://www.linkedin.com/in/kataria-yash/?originalSubdomain=in",
+      img: yash
     }
   ],
   [
     //Array 2
     {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: lyin
+      Name: "Abhay Kumar",
+      role: "Discord Moderator",
+      linkedin: "https://www.linkedin.com/in/abhayku2002/",
+      img: abhay
     },
+    {
+      Name: "Prathima Kadari",
+      role: "Organizer",
+      linkedin: "https://www.linkedin.com/in/prathima-kadari/",
+      img: zoha
+    },    
     {
       Name: "Zoheb",
       role: "Organizer",
-      github: "",
       linkedin: "",
       img: zoha
     },    
@@ -212,21 +270,18 @@ const JudgesInfo = [
     {
       Name: "Rehan",
       role: "Organizer",
-      github: "",
       linkedin: "",
       img: me
     },
     {
       Name: "Moon",
       role: "Organizer",
-      github: "",
       linkedin: "",
       img: moon
     },
     {
       Name: "Ryah Garcia",
       role: "Organizer",
-      github: "",
       linkedin: "",
       img: Ryah
     }
@@ -243,7 +298,6 @@ const JudgesInfo = [
     {
       Name: "Zoheb",
       role: "Organizer",
-      github: "",
       linkedin: "",
       img: zoha
     },    
@@ -317,6 +371,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  Tracks,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,
