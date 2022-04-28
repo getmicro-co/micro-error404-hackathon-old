@@ -6,22 +6,10 @@
 .insta{
   color: #8a3ab9;
 }
-.discord{
-
-}
-.twitter{
-
-}
-.linkdin{
-
-}
-.dev{
-
-}
 
 .single {
   display: inline-block;
-  margin: 13px 30px;
+  margin: 15px;
 }
 .single a {
   /* color: rgba(231, 228, 228); */

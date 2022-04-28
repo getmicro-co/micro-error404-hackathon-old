@@ -348,7 +348,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (rehan@micro.tech or hello@limbohacks.tech) we would happy to help you."
+        content: "Reach us directly at (rehan@micro.tech or hello@abcd.tech) we would happy to help you."
       }
       ,
       {

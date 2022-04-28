@@ -3,6 +3,7 @@ import {Myinfo} from "../Top-division-components/Top-division-components.jsx";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import Contact from "../Contact/contact";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
@@ -190,7 +191,7 @@ export default function HomePage(props) {
          <Row className="prizesection" id="contact">
           <PrizeHeading type="Contact Us" classNamehr />
           <div className="contact">
-            
+            <Contact/>
           </div>  
         </Row>
         {/* ********Frequently asked Questions ending here ***** */}  

@@ -125,6 +125,13 @@ top: -50px;
     background: #c8ccf4;
 }
 
+
+.contact{
+  margin: auto;
+}
+
+
+
 @media only screen
 and (max-width : 720px) {
   
