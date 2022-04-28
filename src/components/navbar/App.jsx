@@ -46,7 +46,7 @@ const NAVBAR = ({}) => {
 
   const listenScrollEvent = e => {
     if (window.scrollY > 750) {
-      setColor("#6A63B7");
+      setColor("#121930");
     } else {
       setColor("#121930");
     }
@@ -112,6 +112,11 @@ const NAVBAR = ({}) => {
               <li>
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{" "}
+                </Link>
+              </li>
+              <li>
+                <Link to={`#resources`}>
+                  <span className="links">Resources </span>{" "}
                 </Link>
               </li>
               <li>

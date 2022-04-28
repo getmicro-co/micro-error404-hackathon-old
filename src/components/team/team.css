@@ -17,6 +17,7 @@
   display: block;
   margin: 0 auto;
   border: 5px solid #6A63B7;
+  border:5px solid hsla(344, 90%, 70%, 1);
 }
 .members-link {
   text-align: center;

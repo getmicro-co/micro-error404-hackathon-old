@@ -1,6 +1,6 @@
 import React  from "react";
 import "./footer1.scss";
-import {Btn} from "../Top-division-components/Top-division-components.jsx";
+// import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {TOP_SECTION, FOOTER} from "../../Module/General";
 import Media from "../media/media";
 
@@ -32,20 +32,20 @@ export default function Footer() {
         <div className="Register_a">
             <h2>Navigate</h2>
             <ul>
-              <li><a href="">Home</a></li>
+              <li><a href="">Sponsors</a></li>
+              <li><a href="">Resources</a></li>
               <li><a href="">Team</a></li>
-              <li><a href="">Schedule</a></li>
-              <li><a href="">Prizes</a></li>
+              <li><a href="">Judge</a></li>
             </ul>
         </div>
 
         <div className="Register_a">
-            <h2>Navigate</h2>
+            <h2>For Users</h2>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Schedule</a></li>
+              <li><a href="">Tracks</a></li>
+              <li><a href="">Timeline</a></li>
               <li><a href="">Prizes</a></li>
+              <li><a href="">FAQ</a></li>
             </ul>
         </div>
 
@@ -53,11 +53,11 @@ export default function Footer() {
             <h2>Socials</h2>
             <ul className="socials-icon">
               <Media/>
-              {FOOTER.VOLUNTEERING_FORM.required && (
+              {/* {FOOTER.VOLUNTEERING_FORM.required && (
                 <a href={FOOTER.VOLUNTEERING_FORM.src}>
                   <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
                 </a>
-              )}
+              )} */}
             </ul>
         </div>
     

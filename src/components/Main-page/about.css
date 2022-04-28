@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
 .Whole_div {
   background-repeat: repeat;
   background-size: auto 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
 }
 .mediaInfo {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   background-size: auto 100vh;
 }
 .color_sectiom {
@@ -40,9 +40,9 @@ top: -50px;
 }
 .logoSection {
   text-align: center;
-  padding: 10vh 10vh 0 10vh;
+  /* padding: 10vh 10vh 0 10vh;
   margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-bottom: 3vh; */
 }
 .members {
   padding: 0vh 10vh 0 10vh;
@@ -50,8 +50,8 @@ top: -50px;
 .prizesection {
   text-align: center;
   margin: 0 auto;
-  padding: 0 4vh 15vh;
-  margin: 17vh 14vh 0 14vh;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 7vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
   background-color: #f3effe;
@@ -120,9 +120,9 @@ top: -50px;
 }
 
 .hr{
-  height: 5px;
-    width: 35%;
-    background: #c8ccf4;
+    height: 5px;
+    width: 20%;
+    background: linear-gradient(90deg, #f76e92 0%, #b57cee 100%)
 }
 
 

@@ -13,8 +13,9 @@ import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import CountDown from "../count-down/countDown.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
-import {Member, JoinTeam} from "../team/team.jsx";
+import {Member,} from "../team/team.jsx";
 import pattern from "./pattern4.png";
+import TimelineItem from "../Timeline/Timeline.jsx";
 
 import {
   TOP_SECTION,
@@ -22,6 +23,7 @@ import {
   JudgesInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
+  Timeline,
   FOOTER
 } from "../../Module/General";
 
@@ -108,6 +110,7 @@ export default function HomePage(props) {
               <CountDown />
             </Col>
           </Row>
+          
         {/* Logo section  */}
         <Row className=" logoSection" id="about">
           <Col className="info-div" sm={12} lg={8} md={8}>
@@ -127,6 +130,14 @@ export default function HomePage(props) {
         <Row className="prizesection non-coding" id="timeline">
           <PrizeHeading type="Timeline" />
           <hr className="hr"/>
+         { Timeline.length > 0 && (
+        <div className="timeline-container">
+            {Timeline.map((data, idx) => (
+                <TimelineItem data={data} key={idx} />
+            ))}
+        </div>)}
+    
+
         </Row>
 
         {/* ********Prizes here ***** */}
@@ -147,13 +158,14 @@ export default function HomePage(props) {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        <Birds top="120vh" left="0vh" type="" />
+        
 
         {/* ********Team here ***** */}
         <section className="slant" id="team">
         <div className="slanted-div">         
           <h1 className="team" id="team">Our Team</h1>
-          {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Work with us." />}
+          <hr  className="hr"/>
+          {/* {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Work with us." />} */}
         </div>
         <div>
           
@@ -162,12 +174,14 @@ export default function HomePage(props) {
         </section>
         {/* ********Team ending here ***** */}
 
+        <Birds top="120vh" left="0vh" type="" />
 
         {/* ********Judges here ***** */}
         <section className="slant"  id="team">
          <div className="slanted-div">         
            <h1 className="team" id="judges">Judges</h1>
-           {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being judge" />}
+           <hr className="hr"/>
+           {/* {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being judge" />} */}
          </div>
          <div>
            {JudgesInfo.map(TeamMembers)}
@@ -175,7 +189,10 @@ export default function HomePage(props) {
         </section>
         {/* ********Team ending here ***** */}
 
-
+          <div>
+            <Birds top="120vh" left="0vh" type="" />
+            
+          </div>
 
          {/* ********Frequently asked Questions here ***** */}
          <Row className="prizesection" id="faq">
@@ -187,14 +204,15 @@ export default function HomePage(props) {
         </Row>
         {/* ********Frequently asked Questions ending here ***** */}  
          
-         {/* ********Frequently asked Questions here ***** */}
+         {/* ********Contact form ***** */}
          <Row className="prizesection" id="contact">
           <PrizeHeading type="Contact Us" classNamehr />
+           <hr className="hr"/>
           <div className="contact">
             <Contact/>
           </div>  
         </Row>
-        {/* ********Frequently asked Questions ending here ***** */}  
+        {/* ******** ending here ***** */}  
 
 
 

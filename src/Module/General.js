@@ -47,7 +47,7 @@ import boy from "./Assets/boy.png";
 const TOP_SECTION = {
   TITLE1: "Error",
   TITLE2:"Hackathon",
-  img: Image404,
+  img: Image404, 
   Typed_effect: ["72 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
@@ -137,6 +137,97 @@ const Tracks =  [
   
 ];
 
+
+// Timeline
+
+const Timeline = [
+  {
+      text: ' Opening Ceremony',
+      date: 'June 24th, 2022 ',
+      category: {
+    tag: '5.30 PM',
+    color: '#FFDB14'
+  },
+      link: {
+          url: 'https://google.com',
+          text: 'Meet Link'
+      }
+  },
+  {
+      text: 'Hackathon Period Begins',
+      date: 'June 24th, 2022',
+      category: {
+    tag: '7 PM',
+    color: '#e17b77'
+  },
+      link: {
+          url: 'https://florin-pop/blog/2019/03/weekly-coding-challenge/',
+          text: 'Check it out here'
+      }
+  },
+  {
+      text: 'Initial Evaluation Deadline',
+      date: 'June 26th, 2022',
+      category: {
+    tag: '9 AM',
+    color: '#1DA1F2'
+  },
+      link: {
+          url: 'https://twitter.com/florinpop1705',
+          text: 'Check it out here'
+      }
+  },
+  {
+      text:
+          'Hackathon Submission Period Ends',
+      date: 'June 27th, 2022',
+      category: {
+    tag: '7 PM',
+    color: '#018f69'
+  },
+      link: {
+          url:
+              'https://medium.freecodecamp.org/how-to-build-a-double-slider-sign-in-and-sign-up-form-6a5d03612a34',
+          text: 'Check it out here'
+      }
+  },
+  {
+      text: 'Top 20 Teams will be released',
+      date: 'June 29th, 2022',
+      category: {
+    tag: ' 4 PM',
+    color: 'red'
+  },
+      link: {
+          url: 'https://medium.com/@popflorin1705',
+          text: 'Check it out here'
+      }
+  },
+  {
+      text: 'Demonstration of Projects to Judges',
+      date: 'June 30th, 2022',
+      category: {
+    tag: ' 4PM',
+    color: 'orange'
+  },
+      link: {
+          url: 'https://medium.com/@popflorin1705',
+          text: 'Check it out here'
+      }
+  },
+  {
+      text: 'Results Declared on Closing Ceremony',
+      date: 'July 1st, 2022',
+      category: {
+    tag: ' 7 PM',
+    color: 'purple'
+  },
+      link: {
+          url: 'https://medium.com/@popflorin1705',
+          text: 'Check it out here'
+      }
+  }
+]
 
 
 
@@ -325,40 +416,41 @@ const frequentlyAskedQuestions  = [
   [
     [
       {
-        label: "What is a hackathon?",
+        label: "Do I have to pay to register for the Micro Error404 Hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
-      {
-        label: "Who can attend?",
-        content: "Error 404 is open to all undergraduate, high school students and middle school students from all schools."
+        'No, this hackathon is completely free for everyone.'
       },
       {
-        label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        label: "What is Team Size?",
+        content: "Team Size can be 1-3 members."
       },
       {
-        label: "How team formation works?",
-        content: "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        label: "I'm a beginner. Am I eligible to participate?",
+        content: "Yes, of course if you're a beginner it's the best way to start your hackathon journey and we would be very much pleased to have your participation."
+      },
+      {
+        label: "I just graduated. Can I still join this event?",
+        content: "Yes, all the school and college students including the students graduated this year are invited. Even working professionals and people who don't have a formal education are also welcomed.        "
       }
     ],
     [
       {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        label: "Are we allowed to build on past projects/submit old projects?",
+        content: "No, you have to build a completely new project from the scratch to develop into a full end prototype."
       },
       {
-        label: "I have more questions?",
-        content: "Reach us directly at (rehan@micro.tech or hello@abcd.tech) we would happy to help you."
+        label: "Can I start working on my hack before the event?",
+        content: "Not at all. The work done during the hackathon period only gets counted."
       }
       ,
       {
-        label: "Can i volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        label: "Can I apply for multiple tracks?",
+        content: "You can submit only one project but it can include as many tracks as you want."
       }
       ,
       {
-        label: "Will there be swags?",
-        content: "Yes! Participants will recieveing Error 404 swag!."
+        label: "Do you have a query that's not found here?",
+        content: "No worries, you can drop us a message through a contact form below."
       }
     ]
   ],
@@ -372,6 +464,7 @@ export {
   FOOTER,
   Prizeinfo,
   Tracks,
+  Timeline,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,
