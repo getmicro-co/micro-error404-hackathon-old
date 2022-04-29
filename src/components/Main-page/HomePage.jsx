@@ -11,7 +11,7 @@ import {Prizeinfo,Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import CountDown from "../count-down/countDown.jsx";
-import Birds from "../Birds/birds.jsx";
+// import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
 import {Member,} from "../team/team.jsx";
 import pattern from "./pattern4.png";
@@ -174,7 +174,7 @@ export default function HomePage(props) {
         </section>
         {/* ********Team ending here ***** */}
 
-        <Birds top="120vh" left="0vh" type="" />
+        {/* <Birds top="120vh" left="0vh" type="" /> */}
 
         {/* ********Judges here ***** */}
         <section className="slant"  id="team">
@@ -189,10 +189,6 @@ export default function HomePage(props) {
         </section>
         {/* ********Team ending here ***** */}
 
-          <div>
-            <Birds top="120vh" left="0vh" type="" />
-            
-          </div>
 
          {/* ********Frequently asked Questions here ***** */}
          <Row className="prizesection" id="faq">

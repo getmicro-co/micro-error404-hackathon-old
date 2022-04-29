@@ -19,9 +19,8 @@ function Logo() {
   if (MIDDLE_SECTION.LOGO_EFFECT) {
     myLogo = (
       <div className="logoS">
-        {/* <img className="Logo sym" src={TOP_SECTION.img} alt="error404" /> */}
+        <img className="Logo sym" src={TOP_SECTION.Img} alt="error404" />
         {/* <iframe className="Logo about-logo" src="https://giphy.com/embed/14uQ3cOFteDaU" width="480" height="360" frameBorder="0"  allowFullScreen></iframe> */}
-        <iframe className="about-logo" src="https://giphy.com/embed/C21GGDOpKT6Z4VuXyn" width="480" height="480" frameBorder="0" />
       </div>
     );
   } else {

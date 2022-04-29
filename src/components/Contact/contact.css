@@ -7,7 +7,8 @@ textarea {
 
 
 .form {
-  width: 100%;
+  /* width: 80%; */
+  margin: 0 25vh;
   align-items: center;
   /* max-width: 820px; */
   background-color: #fff;
@@ -21,6 +22,7 @@ textarea {
 }
 
 .contact-form {
+  height: 100%;
   background:linear-gradient(90deg, hsla(344, 90%, 70%, 1) 0%, hsla(270, 77%, 71%, 1) 100%) ;
   position: relative;
 }
@@ -57,7 +59,7 @@ textarea {
 }
 
 form {
-  padding: 7rem 2.2rem;
+  padding:6rem 2.2rem;
   z-index: 1;
   overflow: hidden;
   position: relative;
@@ -78,16 +80,16 @@ form {
 
 .input {
   width: 100%;
-  outline: none;
-  border: 2px solid #fafafa;
-  background: none;
-  padding: 2rem 1.2rem;
-  color: #fff;
-  font-weight: 500;
-  font-size: 2rem;
-  letter-spacing: 0.5px;
-  border-radius: 25px;
-  transition: 0.3s;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 1rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    border-radius: 15px;
+    transition: 0.3s;
 }
 
 textarea.input {
@@ -118,11 +120,12 @@ textarea.input {
 }
 
 .btn {
-  padding: 1.5rem 4rem;
+  width: 12rem;
+  height: 5rem;
+  padding: 1.5rem 1rem;
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 1.5rem;
-  color:  hsla(344, 90%, 70%, 1);
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -130,10 +133,16 @@ textarea.input {
   transition: 0.3s;
   margin: 0;
 }
+.btn-a{
+  color:  hsla(344, 90%, 70%, 1);
+}
+.btn-a:hover{
+  color: #fff;
+}
 
 .btn:hover {
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
 }
 
 .input-container span {
@@ -182,8 +191,12 @@ textarea.input {
   opacity: 1;
 }
 
+.contactInfo{
+  margin-top: 8vh;
+}
+
 .contact-info {
-  padding: 2.3rem 2.2rem;
+  padding: 0 2.2rem;
   position: relative;
 }
 

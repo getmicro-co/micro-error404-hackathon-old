@@ -30,12 +30,12 @@ export default function Footer() {
         </div>
 
         <div className="Register_a">
-            <h2>Navigate</h2>
+            <h2>Quick Links</h2>
             <ul>
+              <li><a href="">Registration</a></li>
               <li><a href="">Sponsors</a></li>
+              <li><a href="">Call for Mentors</a></li>
               <li><a href="">Resources</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Judge</a></li>
             </ul>
         </div>
 

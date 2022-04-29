@@ -23,7 +23,7 @@ h1 {
 }
 
 .info {
-  margin-top: 20vh;
+  margin-top: 18vh;
   color: white;
 }
 
@@ -51,7 +51,7 @@ top: -50px;
   text-align: center;
   margin: 0 auto;
   padding: 1px 6vh 7vh;
-  margin: 1vh 7vh 0 14vh;
+  margin: 1vh 14vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
   background-color: #f3effe;
@@ -80,8 +80,8 @@ top: -50px;
 
 
 .slanted-div {
-  border-radius: 5px;
-  margin: 0;
+  border-radius: 10px;
+  margin: 1vh 14vh;
   position: relative;
   padding: 10px 0;
   background: #f3effe;
@@ -98,14 +98,14 @@ top: -50px;
   background: inherit;
   z-index: -1;
   top: 0;
-  transform-origin: right top;
-  transform: skewY(-3deg);
+  /* transform-origin: right top;
+  transform: skewY(-3deg); */
 }
 
 .slanted-div:after {
   bottom: 0;
-  transform-origin: right bottom;
-  transform: skewY(3deg);
+  /* transform-origin: right bottom;
+  transform: skewY(3deg); */
 }
 
 /* displays the content inside, as these settings in the parent breaks the effect */

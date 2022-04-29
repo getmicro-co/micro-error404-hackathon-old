@@ -7,13 +7,13 @@ export default function Contact(){
         
       <div class="form">
         <div class="contact-info">
-          <h1 class="title">Let's get in touch</h1>
+          <h1 class="title">Let's Get In Touch</h1>
           <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             dolorum adipisci recusandae praesentium dicta!
           </p>
 
-          <div class="info">
+          <div class="contactInfo">
             <div class="information">
               <img src="https://www.pinclipart.com/picdir/middle/119-1196724_location-icon-svg-png-icon-free-download-map.png" class="icon" alt="" />
               <p>92 Cherry Drive Uniondale, NY 11553</p>
@@ -52,7 +52,11 @@ export default function Contact(){
             <div class="input-container textarea">
               <textarea name="message" class="input" placeholder='Message'></textarea>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            {/* <input type="submit" value="Send" class="btn"> */}
+            <button type="submit" class="btn">
+              <a className='btn-a'  href="mailto:someone@example.com">Send</a>
+            </button>
+            {/* </input> */}
             
           </form>
         </div>

@@ -12,7 +12,7 @@ import egg from "./Assets/sponsorsLogos/egg.png";
 import ll from "./Assets/sponsorsLogos/ll.png";
 import ACF from "./Assets/sponsorsLogos/ACF.png";
 import Image404 from "../components/Top-division-components/404.png";
-
+import aboutImage from "../components/logo-section/cyborg.png";
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -25,7 +25,7 @@ import Ryah from "./Assets/teami/Ryah.jpg";
 import lyin from "./Assets/teami/lyin.jpg";
 import zoha from "./Assets/teami/zoha.png";
 
-import abhay from "./Assets/teami/AbhayKumar.jpg";
+import abhay from "./Assets/teami/AbhayKumar.jpeg";
 import yash from "./Assets/teami/YashKataria.jpeg";
 import zak from "./Assets/teami/zakariya.png";
 import sid from "./Assets/teami/SiddhantPawar.jpeg";
@@ -48,12 +48,14 @@ const TOP_SECTION = {
   TITLE1: "Error",
   TITLE2:"Hackathon",
   img: Image404, 
+  Img: aboutImage,
+  host: "Hosted by Micro.",
   Typed_effect: ["72 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   HACKERS_REGISTRATION_FORM_LINK: "dumba",
-  DISCORD_LINK: "https://discord.com/channels/967360776501329960/967360776501329963",
+  DISCORD_LINK: "https://discord.com/invite/G3SkQfBk",
   MENTOR_FORM_LINK:
     "https://github.com/getmicro-co/micro-error404-hackathon",
   SPONSOR_FORM_LINK:
@@ -63,7 +65,7 @@ const TOP_SECTION = {
 const SOCIALS = {
   instagram: "https://www.instagram.com/",
   discord: "https://discord.com/",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/company/get-micro/",
   twitter: "https://twitter.com",
   devpost: "https://devpost.com/",
   email: "mailto:hello@abcd",
@@ -104,19 +106,19 @@ const Tracks =  [
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Artificial Intelligence",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
-    },
+        "Search engines, Stock market, cybersecurity or healthcare AI never ceases to amaze us with its capability. Show us what can do if you are an AI enthusiast. "
+      },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
       type: "Blockchain",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "Web 3.0 is the third generation of internet services for websites and applications. Write some solidity contracts to participate into this category."
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "AR/VR",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "AR augments surroundings by adding digital elements to a live view. VR replaces a real life environment with a simulated one."
     }
   ],
   [
@@ -125,12 +127,12 @@ const Tracks =  [
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Web Development",
       content:
-        "You project will qualify for this prize. if you participate alone without a team though."
+        "Make cool Web app using any technology of your choice that solves any real world problem and your project will qualify for this prize track."
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: " Mobile Development",
-      content: "Your project will qualify for this category if atleast 50% of the project is complete."
+      content: "Whether it is Android/ios or Flutter/React native it's your call make a project in this domain and win exciting swags and prizes."
     },
 
   ],
@@ -143,7 +145,7 @@ const Tracks =  [
 const Timeline = [
   {
       text: ' Opening Ceremony',
-      date: 'June 24th, 2022 ',
+      date: 'July 15th, 2022 ',
       category: {
     tag: '5.30 PM',
     color: '#FFDB14'
@@ -155,7 +157,7 @@ const Timeline = [
   },
   {
       text: 'Hackathon Period Begins',
-      date: 'June 24th, 2022',
+      date: 'July 15th, 2022',
       category: {
     tag: '7 PM',
     color: '#e17b77'
@@ -167,7 +169,7 @@ const Timeline = [
   },
   {
       text: 'Initial Evaluation Deadline',
-      date: 'June 26th, 2022',
+      date: 'July 17th, 2022',
       category: {
     tag: '9 AM',
     color: '#1DA1F2'
@@ -180,7 +182,7 @@ const Timeline = [
   {
       text:
           'Hackathon Submission Period Ends',
-      date: 'June 27th, 2022',
+      date: 'July 18th, 2022',
       category: {
     tag: '7 PM',
     color: '#018f69'
@@ -193,7 +195,7 @@ const Timeline = [
   },
   {
       text: 'Top 20 Teams will be released',
-      date: 'June 29th, 2022',
+      date: 'July 20th,, 2022',
       category: {
     tag: ' 4 PM',
     color: 'red'
@@ -205,7 +207,7 @@ const Timeline = [
   },
   {
       text: 'Demonstration of Projects to Judges',
-      date: 'June 30th, 2022',
+      date: 'July 21st, 2022',
       category: {
     tag: ' 4PM',
     color: 'orange'
@@ -217,7 +219,7 @@ const Timeline = [
   },
   {
       text: 'Results Declared on Closing Ceremony',
-      date: 'July 1st, 2022',
+      date: 'July 23rd, 2022',
       category: {
     tag: ' 7 PM',
     color: 'purple'
@@ -271,17 +273,17 @@ const Prizeinfo = [
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Beginer",
       content:
-        "You project will qualify for this prize. if you participate alone without a team though."
+        "If this is your first ever hackthon and your project solves real worl problem then you will be awarded in this category."
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: " Education",
-      content: "Your project will qualify for this category if atleast 50% of the project is complete."
+      content: "Solve a problem in the educational sector and your project will qualify for this category."
     },
     {
       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
       type: "Finance",
-      content: "Project with most creative financing ideas will be awarded with this award."
+      content: "Project with most creative financing ideas that are converted into codes will be awarded with this award."
     }
   ],
   [
@@ -289,17 +291,17 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-4x sixth fa-male"></i>,
       type: "Healthcare",
-      content: "Project with most creative financing ideas will be awarded with this award."
+      content: "The Healthcare track aims to create innovative projects that address various health-related issues."
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "Remote World",
-      content: "Project with most creative financing ideas will be awarded with this award."
+      content: "Remote work enthusiast with project's having most creative idea's that solve real worl issues will be awarded in this category."
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "Open Innovation",
-      content: "Project with most creative financing ideas will be awarded with this award."
+      content: "We encourage you to exercise your ideas and develop technologies that address a problem, without any restrictions."
     }
   ]
 ];
@@ -377,22 +379,7 @@ const JudgesInfo = [
       img: Ryah
     }
   ],
-  [
-    //Array 2
-    {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: lyin
-    },
-    {
-      Name: "Zoheb",
-      role: "Organizer",
-      linkedin: "",
-      img: zoha
-    },    
-  ] 
+
 ];
 
 
