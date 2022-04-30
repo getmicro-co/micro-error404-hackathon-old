@@ -55,7 +55,8 @@ top: -50px;
   margin: 1vh 14vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #f3effe;
+  /* background-color: #f3effe; */
+  background: #F2F3F2;
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;

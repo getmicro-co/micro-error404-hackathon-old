@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
     display: block;
-    background-color: #f3effe;
+    /* background-color: #f3effe; */
+    background: #F2F3F2;
     color: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 8px;

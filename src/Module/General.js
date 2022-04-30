@@ -50,7 +50,7 @@ const TOP_SECTION = {
   img: Image404, 
   Img: aboutImage,
   host: "Hosted by Micro.",
-  Typed_effect: ["72 hours of engagement.", "Win awesome prizes.","Bring ideas to reality.","Embrace Networking."],
+  Typed_effect: ["72 hours of engagement", "Win awesome prizes","Bring ideas to reality","Embrace Networking"],
   SHORT_DESCRIPTION:
     "Join us on 15th July, 2022 with over 1000+ students from across the world for 72 hours of creation, innovation & fun.",
   IMG_SRC: boy,
