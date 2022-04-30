@@ -52,7 +52,7 @@ const TOP_SECTION = {
   host: "Hosted by Micro.",
   Typed_effect: ["72 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 15th July, 2022 with over 1000+ students from across the world for 72 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   HACKERS_REGISTRATION_FORM_LINK: "dumba",
   DISCORD_LINK: "https://discord.com/invite/G3SkQfBk",
