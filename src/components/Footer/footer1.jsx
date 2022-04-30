@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="Register_a">
-            <h2>Socials</h2>
+            <h2>Socialize</h2>
             {/* <ul className="socials-icon"> */}
               {/* {FOOTER.VOLUNTEERING_FORM.required && (
                 <a href={FOOTER.VOLUNTEERING_FORM.src}>

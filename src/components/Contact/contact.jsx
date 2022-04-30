@@ -9,8 +9,8 @@ export default function Contact(){
         <div class="contact-info">
           <h1 class="title">Let's Get In Touch</h1>
           <p class="text">
-            If you have any inquieries, requests, questions or even suggestions for Error404
-            Hackathon, Feel free to reach out to us using this Contact form.
+            If you have any inquiries, requests, questions or even suggestions for Error404
+            Hackathon. Feel free to reach out to us using this Contact form.
           </p>
 
           <div class="contactInfo">

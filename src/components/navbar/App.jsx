@@ -117,6 +117,8 @@ const NAVBAR = ({}) => {
               <li>
                 <Link to={`#resources`}>
                   <span className="links">Resources </span>{" "}
+                  {/* <li>Hackathon Guide</li>
+                  <li>Sponsors Guide</li> */}
                 </Link>
               </li>
               <li>

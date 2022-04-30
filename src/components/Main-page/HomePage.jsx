@@ -21,6 +21,7 @@ import bg3 from "./bg3.jpeg";
 import bg4 from "./bg4.jpeg";
 import bg5 from "./bg5.jpeg";
 import bg6 from "./bg6.jpeg";
+import bg7 from "./bg7.jpeg";
 import TimelineItem from "../Timeline/Timeline.jsx";
 
 import {
@@ -168,10 +169,11 @@ export default function HomePage(props) {
 
         {/* Micro */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Short stint to Micro" />
+          <PrizeHeading type="Short Stint To Micro" />
           <hr className="hr"/>
           <Micro />
           <MicroHead />
+
         </Row>
         {/*Micro end*/}
 

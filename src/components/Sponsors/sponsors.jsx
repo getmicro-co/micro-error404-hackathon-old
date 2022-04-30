@@ -2,6 +2,7 @@ import React from "react";
 import "./sponsors.scss";
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS} from "../../Module/General";
+import micro from "./micro.jpeg"
 
 function SponsorsHead() {
   return <p className="shead">
@@ -45,14 +46,18 @@ function Micro() {
   );
 }
 function MicroHead() {
-  return <p className="shead">
+  return (
+  <div className="micro-container">
+    <p className="shead">
         Micro is a platform that allows you to participate 
         in alternative assets on a fractional basis. 
         We're aiming to become one of the finest Fintech 
         sector's fastest growing and most ambitious start-ups 
         by establishing a unique technology platform.
-
-  </p>;
+     </p>
+     <img className="microimg" src={micro} alt="" />
+  </div>
+  );
 }
 
 
