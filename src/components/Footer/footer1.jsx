@@ -17,13 +17,12 @@ export default function Footer() {
         
         <div className="about">
         <img src={TOP_SECTION.img} className="img" alt="" />
-         <h1>Micro</h1>
+         <h1>Micro.</h1>
          <hr />
          <div className="Desc">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Modi quos consequuntur maiores officiis deserunt ullam aperiam 
-            culpa veritatis molestias, iure magni hic nisi. Ad libero soluta 
-            deleniti nulla sunt nemo.
+         Making Investments Easy For Everyone. 
+         Investors with as little as Rs 1000/- 
+         can also invest and reap its benefits.
 
          </div>
         
@@ -33,7 +32,7 @@ export default function Footer() {
             <h2>Quick Links</h2>
             <ul>
               <li><a href="">Registration</a></li>
-              <li><a href="">Sponsors</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
               <li><a href="">Call for Mentors</a></li>
               <li><a href="">Resources</a></li>
             </ul>
@@ -42,23 +41,23 @@ export default function Footer() {
         <div className="Register_a">
             <h2>For Users</h2>
             <ul>
-              <li><a href="">Tracks</a></li>
-              <li><a href="">Timeline</a></li>
-              <li><a href="">Prizes</a></li>
-              <li><a href="">FAQ</a></li>
+              <li><a href="#tracks">Tracks</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#prizes">Prizes</a></li>
+              <li><a href="#faq">FAQ</a></li>
             </ul>
         </div>
 
         <div className="Register_a">
             <h2>Socials</h2>
-            <ul className="socials-icon">
-              <Media/>
+            {/* <ul className="socials-icon"> */}
               {/* {FOOTER.VOLUNTEERING_FORM.required && (
                 <a href={FOOTER.VOLUNTEERING_FORM.src}>
                   <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
                 </a>
               )} */}
-            </ul>
+            {/* </ul> */}
+              <Media/>
         </div>
     
       </div>

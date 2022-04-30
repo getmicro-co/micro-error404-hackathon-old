@@ -9,12 +9,18 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo,Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+import {Sponsor, SponsorsHead, SponsorUS,Micro, MicroHead} from "../Sponsors/sponsors.jsx";
 import CountDown from "../count-down/countDown.jsx";
 // import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
 import {Member,} from "../team/team.jsx";
 import pattern from "./pattern4.png";
+import bg1 from "./bg1.jpeg";
+import bg2 from "./bg2.jpeg";
+import bg3 from "./bg3.jpeg";
+import bg4 from "./bg4.jpeg";
+import bg5 from "./bg5.jpeg";
+import bg6 from "./bg6.jpeg";
 import TimelineItem from "../Timeline/Timeline.jsx";
 
 import {
@@ -90,7 +96,7 @@ function FrequentlyAsked(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div className="Whole_div" style={{backgroundImage: `url(${bg4})`}}>
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">
@@ -105,21 +111,33 @@ export default function HomePage(props) {
         </Container>
       </div>
       <Container fluid>
+
           <Row className="mediaInfo" id="countdown">
             <Col className="" sm={12} lg={12} md={12}>
               <CountDown />
             </Col>
           </Row>
           
-        {/* Logo section  */}
-        <Row className=" logoSection" id="about">
+        
+        {/* about section start */}
+        {/* <Row className=" logoSection prizesection non-coding" id="about">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
           <Col className="info-div" sm={12} lg={4} md={4}>
             <Logo />
           </Col>
+        </Row> */}
+        <Row className="prizesection" id="prizes">
+          <PrizeHeading type="About" />
+          <hr className="hr"/>
+          <Col className="info-div" sm={12} lg={8} md={8}>
+            <LogoSectionAbout />
+            <Logo />
+          </Col>
         </Row>
+
+        {/* about section end */}
 
         <Row className="prizesection non-coding" id="tracks">
           <PrizeHeading type="Tracks" />
@@ -148,45 +166,81 @@ export default function HomePage(props) {
         </Row>
         {/* ********Prizes ending here ***** */}
 
+        {/* Micro */}
+        <Row className="prizesection" id="prizes">
+          <PrizeHeading type="Short stint to Micro" />
+          <hr className="hr"/>
+          <Micro />
+          <MicroHead />
+        </Row>
+        {/*Micro end*/}
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection" id="sponsors">
+        {/* <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
+        </Row> */}
+
+        <Row className="prizesection" id="sponsors">
+          <PrizeHeading type="Sponsors" />
+          <hr className="hr"/>
+          <SponsorUS />
+          <SponsorsHead />
         </Row>
+
         {/* ********Sponsors ending here ***** */}
 
         
 
         {/* ********Team here ***** */}
-        <section className="slant" id="team">
+        {/* <section className="slant" id="team">
         <div className="slanted-div">         
-          <h1 className="team" id="team">Our Team</h1>
-          <hr  className="hr"/>
+          <h1 className="team" id="team">Team</h1>
+          <hr  className="hr"/> */}
           {/* {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Work with us." />} */}
-        </div>
+        {/* </div>
         <div>
-          
           {TeamInfo.map(TeamMembers)}
+          
         </div>
-        </section>
+        </section> */}
+        <Row className="prizesection" id="team">
+          <PrizeHeading type="Team" classNamehr />
+           <hr className="hr"/>
+          <div>
+          {TeamInfo.map(TeamMembers)}
+          </div>  
+        </Row>
+
+
+        
         {/* ********Team ending here ***** */}
 
         {/* <Birds top="120vh" left="0vh" type="" /> */}
 
         {/* ********Judges here ***** */}
-        <section className="slant"  id="team">
+        {/* <section className="slant"  id="team">
          <div className="slanted-div">         
            <h1 className="team" id="judges">Judges</h1>
-           <hr className="hr"/>
+           <hr className="hr"/> */}
            {/* {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being judge" />} */}
-         </div>
-         <div>
+         {/* </div>
            {JudgesInfo.map(TeamMembers)}
+         <div>
          </div>
-        </section>
+        </section> */}
+
+        <Row className="prizesection" id="judges">
+          <PrizeHeading type="Judges" classNamehr />
+           <hr className="hr"/>
+          <div>
+           {JudgesInfo.map(TeamMembers)}
+          </div>  
+        </Row>
+
+
         {/* ********Team ending here ***** */}
 
 

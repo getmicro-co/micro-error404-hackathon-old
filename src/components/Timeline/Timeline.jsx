@@ -9,7 +9,7 @@ const TimelineItem = ({ data }) => (
             </span>
             <time>{data.date}</time>
             <p>{data.text}</p>
-            {data.link && (
+            {(data.link && data.link.text) && (
                 <a
                     href={data.link.url}
                     target="_blank"

@@ -29,7 +29,7 @@ import abhay from "./Assets/teami/AbhayKumar.jpeg";
 import yash from "./Assets/teami/YashKataria.jpeg";
 import zak from "./Assets/teami/zakariya.png";
 import sid from "./Assets/teami/SiddhantPawar.jpeg";
-
+import pk from "./Assets/teami/pk.jpeg"
 
 
 
@@ -67,7 +67,7 @@ const SOCIALS = {
   discord: "https://discord.com/",
   linkedin: "https://www.linkedin.com/company/get-micro/",
   twitter: "https://twitter.com",
-  devpost: "https://devpost.com/",
+  web: "https://getmicro.co/",
   email: "mailto:hello@abcd",
   mail: "hello@abcd.tech"
 };
@@ -75,7 +75,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "About",
   LONG_DESCRIPTION:
-    "Error 404 is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Error 404 will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Error 404 Hacks is a Hackathon aimed at providing an outlet for all beings to develop their ideas, as well as fostering an environment that emboldens them to shine and get access to opportunities that connect them with peers and industry professionals. Geeks with all levels of coding experience are welcomed to discover their potential as problem-solvers and tech leaders. This event is free and organized digitally.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -132,7 +132,7 @@ const Tracks =  [
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: " Mobile Development",
-      content: "Whether it is Android/ios or Flutter/React native it's your call make a project in this domain and win exciting swags and prizes."
+      content: "Whether it is Android/ios or Flutter/React native it's your call make a project in this domain get some hands-on experience of software engineering."
     },
 
   ],
@@ -164,7 +164,7 @@ const Timeline = [
   },
       link: {
           url: 'https://florin-pop/blog/2019/03/weekly-coding-challenge/',
-          text: 'Check it out here'
+          // text: 'Check it out here'
       }
   },
   {
@@ -176,7 +176,7 @@ const Timeline = [
   },
       link: {
           url: 'https://twitter.com/florinpop1705',
-          text: 'Check it out here'
+          // text: 'Check it out here'
       }
   },
   {
@@ -190,7 +190,7 @@ const Timeline = [
       link: {
           url:
               'https://medium.freecodecamp.org/how-to-build-a-double-slider-sign-in-and-sign-up-form-6a5d03612a34',
-          text: 'Check it out here'
+          // text: 'Check it out here'
       }
   },
   {
@@ -202,7 +202,7 @@ const Timeline = [
   },
       link: {
           url: 'https://medium.com/@popflorin1705',
-          text: 'Check it out here'
+          // text: 'Check it out here'
       }
   },
   {
@@ -214,7 +214,7 @@ const Timeline = [
   },
       link: {
           url: 'https://medium.com/@popflorin1705',
-          text: 'Check it out here'
+          // text: 'Check it out here'
       }
   },
   {
@@ -226,7 +226,7 @@ const Timeline = [
   },
       link: {
           url: 'https://medium.com/@popflorin1705',
-          text: 'Check it out here'
+          text: 'Meet Link'
       }
   }
 ]
@@ -296,7 +296,7 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "Remote World",
-      content: "Remote work enthusiast with project's having most creative idea's that solve real worl issues will be awarded in this category."
+      content: "Solve problems that are faced in daily life of a Remote Worker whether it is conflicting working hours or communication gap."
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
@@ -346,7 +346,7 @@ const TeamInfo = [
       Name: "Prathima Kadari",
       role: "Organizer",
       linkedin: "https://www.linkedin.com/in/prathima-kadari/",
-      img: zoha
+      img: pk
     },    
     {
       Name: "Zoheb",

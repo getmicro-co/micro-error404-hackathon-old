@@ -9,22 +9,22 @@ export default function Contact(){
         <div class="contact-info">
           <h1 class="title">Let's Get In Touch</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            If you have any inquieries, requests, questions or even suggestions for Error404
+            Hackathon, Feel free to reach out to us using this Contact form.
           </p>
 
           <div class="contactInfo">
-            <div class="information">
+            {/* <div class="information">
               <img src="https://www.pinclipart.com/picdir/middle/119-1196724_location-icon-svg-png-icon-free-download-map.png" class="icon" alt="" />
               <p>92 Cherry Drive Uniondale, NY 11553</p>
-            </div>
+            </div> */}
             <div class="information">
               <img src="http://cdn.onlinewebfonts.com/svg/img_237869.png" class="icon" alt="" />
               <p>lorem@ipsum.com</p>
             </div>
             <div class="information">
               <img src="https://toppng.com/uploads/preview/phone-svg-icon-free97207-onlinewebfonts-icon-phone-svg-11553521707b5gbjv5pf7.png" class="icon" alt="" />
-              <p>123-456-789</p>
+              <p>+91 8660626844</p>
             </div>
           </div>
 
