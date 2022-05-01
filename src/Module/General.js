@@ -30,6 +30,7 @@ import yash from "./Assets/teami/YashKataria.jpeg";
 import zak from "./Assets/teami/zakariya.png";
 import sid from "./Assets/teami/SiddhantPawar.jpeg";
 import pk from "./Assets/teami/pk.jpeg"
+import ak from "./Assets/teami/ak.jpeg"
 
 
 
@@ -133,6 +134,11 @@ const Tracks =  [
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: " Mobile Development",
       content: "Whether it is Android/ios or Flutter/React native it's your call make a project in this domain get some hands-on experience of software engineering."
+    },
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: " Open Hardware",
+      content: "Many are saying we're in the midst of a hardware revolution. Build a working prototype of your hardware project you can use open source for your needs."
     },
 
   ],
@@ -348,12 +354,12 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/prathima-kadari/",
       img: pk
     },    
-    // {
-    //   Name: "Zoheb",
-    //   role: "Organizer",
-    //   linkedin: "",
-    //   img: zoha
-    // },    
+    {
+      Name: "Anshuman Kumar Prasad",
+      role: "Discord Moderator",
+      linkedin: "https://www.linkedin.com/in/aminoxix/",
+      img: ak
+    },    
   ] 
 ];
 

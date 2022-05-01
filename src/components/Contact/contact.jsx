@@ -1,5 +1,8 @@
 import React from 'react'
-import Media from '../media/media'
+import Media from '../media/media';
+import email from "./email.png";
+import phone from "./phone.png";
+import web from "./web.png";
 import "./contact.css"
 
 export default function Contact(){
@@ -7,7 +10,7 @@ export default function Contact(){
         
       <div class="form">
         <div class="contact-info">
-          <h1 class="title">Let's Get In Touch</h1>
+          <h1 class="title" style={{'color':'#f76e92'}}>Let's Get In Touch</h1>
           <p class="text">
             If you have any inquiries, requests, questions or even suggestions for Error404
             Hackathon. Feel free to reach out to us using this Contact form.
@@ -19,17 +22,23 @@ export default function Contact(){
               <p>92 Cherry Drive Uniondale, NY 11553</p>
             </div> */}
             <div class="information">
-              <img src="http://cdn.onlinewebfonts.com/svg/img_237869.png" class="icon" alt="" />
-              <p>lorem@ipsum.com</p>
+              <img src={email} class="icon" alt="" />
+              <h4 >
+                <a style={{'color':'#f76e92'}} href="mailto:abcd@gmail.com">abcd@gmail.com</a>
+              </h4>
             </div>
             <div class="information">
-              <img src="https://toppng.com/uploads/preview/phone-svg-icon-free97207-onlinewebfonts-icon-phone-svg-11553521707b5gbjv5pf7.png" class="icon" alt="" />
-              <p>+91 8660626844</p>
+              <img src={phone} class="icon" alt="" />
+              <h4 style={{'color':'#f76e92'}}>+91 8660626844</h4>
+            </div>
+            <div class="information">
+              <img src={web} class="icon" alt="" />
+              <h4><a href="https://getmicro.co/" style={{'color':'#f76e92'}}>Micro</a></h4>
             </div>
           </div>
 
           <div class="social-media">
-            <p>Connect with us :</p>
+            <p style={{'color':'#f76e92'}}>Connect with us :</p>
                 <Media/>
           </div>
         </div>
