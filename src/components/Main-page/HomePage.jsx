@@ -28,6 +28,7 @@ import {
   TOP_SECTION,
   TeamInfo,
   JudgesInfo,
+  organizers,
   sponsorLogos,
   frequentlyAskedQuestions,
   Timeline,
@@ -215,6 +216,7 @@ export default function HomePage(props) {
           {TeamInfo.map(TeamMembers)}
           </div>  
         </Row>
+       
 
 
         
@@ -244,6 +246,19 @@ export default function HomePage(props) {
 
 
         {/* ********Team ending here ***** */}
+
+
+        {/* Organizers */}
+         
+        <Row className="prizesection" id="team">
+          <PrizeHeading type="Organizers" classNamehr />
+           <hr className="hr"/>
+          <div>
+          {organizers.map(TeamMembers)}
+          </div>  
+        </Row>
+        {/* End organizers */}
+
 
 
          {/* ********Frequently asked Questions here ***** */}

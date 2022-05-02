@@ -24,7 +24,7 @@ export default function Contact(){
             <div class="information">
               <img src={email} class="icon" alt="" />
               <h4 >
-                <a style={{'color':'#f76e92'}} href="mailto:abcd@gmail.com">abcd@gmail.com</a>
+                <a style={{'color':'#f76e92'}} href="mailto:404error@getmicro.co">404error@getmicro.co</a>
               </h4>
             </div>
             <div class="information">
@@ -63,7 +63,7 @@ export default function Contact(){
             </div>
             {/* <input type="submit" value="Send" class="btn"> */}
             <button type="submit" class="btn">
-              <a className='btn-a'  href="mailto:someone@example.com">Send</a>
+              <a className='btn-a'  href="mailto:404error@getmicro.co">Send</a>
             </button>
             {/* </input> */}
             

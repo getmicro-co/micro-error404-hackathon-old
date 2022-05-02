@@ -115,11 +115,11 @@ const NAVBAR = ({}) => {
                 </Link>
               </li>
               <li>
-                <Link to={`#resources`}>
+                <a href="https://workdrive.zoho.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a">
+
                   <span className="links">Resources </span>{" "}
-                  {/* <li>Hackathon Guide</li>
-                  <li>Sponsors Guide</li> */}
-                </Link>
+                </a>
+          
               </li>
               <li>
                 <Link to={`#team`}>

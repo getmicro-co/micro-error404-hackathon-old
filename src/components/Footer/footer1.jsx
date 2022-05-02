@@ -58,6 +58,9 @@ export default function Footer() {
               )} */}
             {/* </ul> */}
               <Media/>
+              <div>
+                <h5>Error404 - Building a community of Technology Enthusiasts</h5>
+              </div>
         </div>
     
       </div>

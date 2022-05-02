@@ -31,6 +31,9 @@ import zak from "./Assets/teami/zakariya.png";
 import sid from "./Assets/teami/SiddhantPawar.jpeg";
 import pk from "./Assets/teami/pk.jpeg"
 import ak from "./Assets/teami/ak.jpeg"
+import ar from "./Assets/teami/ar.jpeg"
+import vk from "./Assets/teami/vk.jpeg"
+import pkp from "./Assets/teami/pkp.jpeg"
 
 
 
@@ -349,12 +352,6 @@ const TeamInfo = [
       img: abhay
     },
     {
-      Name: "Prathima Kadari",
-      role: "Organizer",
-      linkedin: "https://www.linkedin.com/in/prathima-kadari/",
-      img: pk
-    },    
-    {
       Name: "Anshuman Kumar Prasad",
       role: "Discord Moderator",
       linkedin: "https://www.linkedin.com/in/aminoxix/",
@@ -363,27 +360,58 @@ const TeamInfo = [
   ] 
 ];
 
+
+const organizers = [
+  [
+    {
+      Name: "Adinarayana Raghu",
+      role: "Founder at Micro",
+      linkedin: "https://www.linkedin.com/in/adinarayanaraghu/",
+      img: ar 
+    },
+    {
+      Name: "Ashirwad R",
+      role: "Tinkerer & Polymath at Micro",
+      linkedin: "https://www.linkedin.com/in/ashirwadr/",
+      img: me 
+    },
+    {
+      Name: "Prathima Kadari",
+      role: "CTO at Micro",
+      linkedin: "https://www.linkedin.com/in/prathima-kadari/",
+      img: pk
+    },    
+  ]
+]
+
+
 const JudgesInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
-      role: "Organizer",
-      linkedin: "",
-      img: me
-    },
-    {
-      Name: "Moon",
-      role: "Organizer",
-      linkedin: "",
-      img: moon
+      Name: "Vince Kohli",
+      role: "Global Tech Impact Venture Capitalist",
+      linkedin: "https://www.linkedin.com/in/vincekohli/",
+      img: vk
     },
     {
       Name: "Ryah Garcia",
       role: "Organizer",
       linkedin: "",
       img: Ryah
-    }
+    },
+    {
+      Name: "Praveen Kumar Purushothaman",
+      role: "Full Stack JS Specialist / VP of Software Engineering",
+      linkedin: "https://www.linkedin.com/in/praveentech/",
+      img: pkp
+    },
+    {
+      Name: "Ryah Garcia",
+      role: "Organizer",
+      linkedin: "",
+      img: Ryah
+    },
   ],
 
 ];
@@ -460,6 +488,7 @@ export {
   Timeline,
   sponsorLogos,
   TeamInfo,
+  organizers,
   JudgesInfo,
   frequentlyAskedQuestions
 };
