@@ -33,7 +33,7 @@ import pk from "./Assets/teami/pk.jpeg"
 import ak from "./Assets/teami/ak.jpeg"
 import ar from "./Assets/teami/ar.jpeg"
 import vk from "./Assets/teami/vk.jpeg"
-import sr from "./Assets/teami/sr.jpg"
+import sr from "./Assets/teami/sr.jpeg"
 import pkp from "./Assets/teami/pkp.jpeg"
 
 
