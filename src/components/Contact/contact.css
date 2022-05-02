@@ -23,13 +23,14 @@ textarea {
 
 .contact-form {
   height: 100%;
-  background:linear-gradient(90deg, hsla(344, 90%, 70%, 1) 0%, hsla(270, 77%, 71%, 1) 100%) ;
+  /* background:linear-gradient(90deg, hsla(344, 90%, 70%, 1) 0%, hsla(270, 77%, 71%, 1) 100%) ; */
+  background:linear-gradient(90deg, rgb(110, 185, 247) 0%, hsla(270, 77%, 71%, 1) 100%) ;
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(90deg, hsla(344, 90%, 70%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  background: linear-gradient(90deg, rgb(110, 185, 247) 0%, hsla(270, 77%, 71%, 1) 100%);
   position: absolute;
 }
 
@@ -52,7 +53,8 @@ textarea {
   position: absolute;
   width: 26px;
   height: 26px;
-  background: hsla(344, 90%, 70%, 1);
+  /* background: hsla(344, 90%, 70%, 1); */
+  background:rgb(110, 185, 247);
   transform: rotate(45deg);
   top: 50px;
   left: -13px;

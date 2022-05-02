@@ -33,6 +33,7 @@ import pk from "./Assets/teami/pk.jpeg"
 import ak from "./Assets/teami/ak.jpeg"
 import ar from "./Assets/teami/ar.jpeg"
 import vk from "./Assets/teami/vk.jpeg"
+import sr from "./Assets/teami/sr.jpg"
 import pkp from "./Assets/teami/pkp.jpeg"
 
 
@@ -395,10 +396,10 @@ const JudgesInfo = [
       img: vk
     },
     {
-      Name: "Ryah Garcia",
-      role: "Organizer",
-      linkedin: "",
-      img: Ryah
+      Name: "Snigdhaa Ritesh",
+      role: "CEO-Inaequalis Consulting | Chief Visionary-Laadli",
+      linkedin: "https://www.linkedin.com/in/snigdhaaritesh/",
+      img: sr
     },
     {
       Name: "Praveen Kumar Purushothaman",

@@ -251,7 +251,7 @@ export default function HomePage(props) {
         {/* Organizers */}
          
         <Row className="prizesection" id="team">
-          <PrizeHeading type="Organizers" classNamehr />
+          <PrizeHeading type="Organizers"/>
            <hr className="hr"/>
           <div>
           {organizers.map(TeamMembers)}
