@@ -34,7 +34,7 @@ export default function Footer() {
               <li><a href="">Registration</a></li>
               <li><a href="#sponsors">Sponsors</a></li>
               <li><a href="">Call for Mentors</a></li>
-              <li><a href="">Resources</a></li>
+              <li><a href="https://workdrive.zohoexternal.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a?layout=list">Resources</a></li>
             </ul>
         </div>
 
