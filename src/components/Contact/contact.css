@@ -61,7 +61,7 @@ textarea {
 }
 
 form {
-  padding:6rem 2.2rem;
+  padding:10rem 2.2rem 4rem;
   z-index: 1;
   overflow: hidden;
   position: relative;
@@ -81,11 +81,11 @@ form {
 }
 
 .input {
-  width: 100%;
+    width: 100%;
     outline: none;
     border: 2px solid #fafafa;
     background: none;
-    padding: 1rem 1.2rem;
+    padding: 2rem 1.2rem;
     color: #fff;
     font-weight: 500;
     font-size: 2rem;
@@ -95,7 +95,7 @@ form {
 }
 
 textarea.input {
-  padding: 0.8rem 1.2rem;
+  padding: 1.5rem 1.2rem;
   min-height: 150px;
   border-radius: 22px;
   resize: none;
@@ -104,7 +104,6 @@ textarea.input {
 
 .input-container ::placeholder {
   position: absolute;
-  top: 10%;
   left: 15px;
   /* transform: translateY(-50%); */
   padding: 0 0.4rem;
