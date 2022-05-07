@@ -5,7 +5,7 @@
   position: relative;
 }
 .panel {
-  background: linear-gradient(90deg, rgb(110, 185, 247) 0%, #b57cee 100%);
+  background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
   border-radius: 12px;
   margin-top: 10px;
 }

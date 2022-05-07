@@ -26,7 +26,7 @@ function About() {
       <img className="error404" src={TOP_SECTION.img} alt="" />
       <h2 className="h2">{TOP_SECTION.TITLE2}</h2>
       {/* <p>{TOP_SECTION.host}</p> */}
-      <p>Hosted by<a href="https://getmicro.co/" style={{color:'hsla(344, 90%, 70%, 1)'}}> Micro.</a></p>
+      <p>Hosted by<a href="https://getmicro.co/" style={{color:'#F1507B'}}> Micro.</a></p>
       <MytypedComponent />
     </div>
   );

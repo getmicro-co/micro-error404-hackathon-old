@@ -17,10 +17,11 @@
   display: block;
   margin: 0 auto;
   /* border: 5px solid rgb(110, 185, 247); */
-  border:5px solid hsla(344, 90%, 70%, 1);
+  border:5px solid #F1507B;
 }
 .members-link {
   text-align: center;
+  color: #fff;
 }
 .members-link a {
   margin: 0 7px;
@@ -30,6 +31,8 @@
   text-align: center;
 }
 .joinT h3 {
+  color: #fff;
+  font-size: 30px;
   display: inline-block;
   font-weight: 500;
   margin-right: 40px;

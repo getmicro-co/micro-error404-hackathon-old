@@ -5,7 +5,8 @@
 .typing-div{
     margin-bottom: 5rem;
     margin-top: 2rem;
-    color: hsla(344, 90%, 70%, 1);
+    /* color: hsla(344, 90%, 70%, 1); */
+    color: #F1507B;
 
 }
 .typing-div h1{

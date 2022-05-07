@@ -2,28 +2,31 @@
 
 .Prizes{
     font-family: 'Poppins';
-    border-radius: 5px;
+    border-radius: 8px;
+    color: #fff;
     // background-color: #c8ccf4;
     // background: linear-gradient(90deg, #6ea4f7 0%, #b57cee 100%);
-    background: linear-gradient(90deg, rgb(110, 185, 247) 0%, hsla(270, 77%, 71%, 1) 100%);
+    // background: linear-gradient(90deg, rgb(110, 185, 247) 0%, hsla(270, 77%, 71%, 1) 100%);
+    
+    background: linear-gradient(216deg, #253958 0%, #241968 88.98%), #C4C4C4;;
     padding: 20px;
     width: 32rem;
     width: fit-content;
-    margin: 0 auto;
+    margin: 30px 10px;
     text-align: left;
     margin-top: 1.7rem;
     // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: #F1507B 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition:0.5s ease;
 }
 .Prizes:hover{
     border-radius: 5px;
-    background-color: #c8ccf4;
+    background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
     padding: 20px;
     width: 32rem;
     width: fit-content;
     text-align: left;
-    background-color: #48aff4;
+
     margin-top: 10px;
     opacity: 0.9;
 }
@@ -36,6 +39,7 @@
     font-size: 5rem;
     margin-bottom: 2rem;
     font-weight: 700;
+    color: #fff;
 
 }
 

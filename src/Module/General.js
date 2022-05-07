@@ -29,13 +29,13 @@ import abhay from "./Assets/teami/AbhayKumar.jpeg";
 import yash from "./Assets/teami/YashKataria.jpeg";
 import zak from "./Assets/teami/zakariya.png";
 import sid from "./Assets/teami/SiddhantPawar.jpeg";
-import pk from "./Assets/teami/pk.jpeg"
-import ak from "./Assets/teami/ak.jpeg"
-import ar from "./Assets/teami/ar.jpeg"
-import vk from "./Assets/teami/vk.jpeg"
-import sr from "./Assets/teami/sr.jpeg"
-import pkp from "./Assets/teami/pkp.jpeg"
-
+import pk from "./Assets/teami/pk.jpeg";
+import ak from "./Assets/teami/ak.jpeg";
+import ar from "./Assets/teami/ar.jpeg";
+import vk from "./Assets/teami/vk.jpeg";
+import sr from "./Assets/teami/sr.jpeg";
+import pkp from "./Assets/teami/pkp.jpeg";
+import ashi from "./Assets/teami/ashirwad.jpg"
 
 
 /** Put all your Team member image inside folder `Team Images`
@@ -123,7 +123,7 @@ const Tracks =  [
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "AR/VR",
       content:
-        "AR augments surroundings by adding digital elements to a live view. VR replaces a real life environment with a simulated one."
+        "Augumented Reality augments surroundings by adding digital elements to a live view. VR replaces a real life environment with a simulated one."
     }
   ],
   [
@@ -311,7 +311,7 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "Open Innovation",
-      content: "We encourage you to exercise your ideas and develop technologies that address a problem, without any restrictions."
+      content: "We encourage you to exercise your ideas and develop technologies that address a real world problem."
     }
   ]
 ];
@@ -374,7 +374,7 @@ const organizers = [
       Name: "Ashirwad R",
       role: "Tinkerer & Polymath at Micro",
       linkedin: "https://www.linkedin.com/in/ashirwadr/",
-      img: me 
+      img: ashi
     },
     {
       Name: "Prathima Kadari",

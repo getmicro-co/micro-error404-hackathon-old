@@ -38,7 +38,7 @@ export default function Contact(){
           </div>
 
           <div class="social-media">
-            <p style={{'color':'#f76e92'}}>Connect with us :</p>
+            <p style={{'color':'#fff'}}>Connect With Us</p>
                 <Media/>
           </div>
         </div>

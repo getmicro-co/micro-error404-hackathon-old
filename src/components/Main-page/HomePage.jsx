@@ -98,7 +98,13 @@ function FrequentlyAsked(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${bg4})`}}>
+    <div className="Whole_div" style={
+      {
+        background: '#121930',
+        // backgroundImage: `url(${bg4})`
+      }}
+      
+      >
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">
@@ -130,7 +136,7 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row> */}
-        <Row className="prizesection" id="prizes">
+        <Row className="aboutsection" id="prizes">
           <PrizeHeading type="About" />
           <hr className="hr"/>
           <Col className="info-div" sm={12} lg={8} md={8}>
@@ -141,35 +147,38 @@ export default function HomePage(props) {
 
         {/* about section end */}
 
-        <Row className="prizesection non-coding" id="tracks">
+        <Row className="tracksection non-coding" id="tracks">
           <PrizeHeading type="Tracks" />
           <hr className="hr"/>
           {Tracks.map(PrizeGroup)}
         </Row>
        
-        <Row className="prizesection non-coding" id="timeline">
+       {/* Timeline Section */}
           <PrizeHeading type="Timeline" />
           <hr className="hr"/>
+        <Row className="timelinesection non-coding" id="timeline">
          { Timeline.length > 0 && (
         <div className="timeline-container">
             {Timeline.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
             ))}
         </div>)}
+
+       {/* Timeline ends */}
     
 
         </Row>
 
         {/* ********Prizes here ***** */}
-        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize Categories" />
           <hr className="hr"/>
+        <Row className="prizesection" id="prizes">
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
         {/* Micro */}
-        <Row className="prizesection" id="prizes">
+        <Row className="microsection" id="prizes">
           <PrizeHeading type="Short Stint To Micro" />
           <hr className="hr"/>
           <Micro />
@@ -186,7 +195,7 @@ export default function HomePage(props) {
           {sponsorLogos.map(SponsorGroup)}
         </Row> */}
 
-        <Row className="prizesection" id="sponsors">
+        <Row className="sponsorsection" id="sponsors">
           <PrizeHeading type="Sponsors" />
           <hr className="hr"/>
           <SponsorUS />
@@ -209,7 +218,7 @@ export default function HomePage(props) {
           
         </div>
         </section> */}
-        <Row className="prizesection" id="team">
+        <Row className="teamsection" id="team">
           <PrizeHeading type="Team" classNamehr />
            <hr className="hr"/>
           <div>
@@ -236,7 +245,7 @@ export default function HomePage(props) {
          </div>
         </section> */}
 
-        <Row className="prizesection" id="judges">
+        <Row className="judgesection" id="judges">
           <PrizeHeading type="Judges" classNamehr />
            <hr className="hr"/>
           <div>
@@ -250,7 +259,7 @@ export default function HomePage(props) {
 
         {/* Organizers */}
          
-        <Row className="prizesection" id="team">
+        <Row className="organizersection" id="team">
           <PrizeHeading type="Organizers"/>
            <hr className="hr"/>
           <div>
@@ -262,9 +271,9 @@ export default function HomePage(props) {
 
 
          {/* ********Frequently asked Questions here ***** */}
-         <Row className="prizesection" id="faq">
           <PrizeHeading type="Frequently Asked Questions" />
           <hr className="hr"/>
+         <Row className="faqsection" id="faq">
           <div className="Myfaqs">
             {frequentlyAskedQuestions.map(FrequentlyAsked)}
           </div>  
@@ -272,7 +281,7 @@ export default function HomePage(props) {
         {/* ********Frequently asked Questions ending here ***** */}  
          
          {/* ********Contact form ***** */}
-         <Row className="prizesection" id="contact">
+         <Row className="contactsection" id="contact">
           <PrizeHeading type="Contact Us" classNamehr />
            <hr className="hr"/>
           <div className="contact">
