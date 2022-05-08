@@ -17,7 +17,8 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background: linear-gradient(to bottom, var(--blue), var(--pink));
+  /* background: linear-gradient(to bottom, var(--blue), var(--pink)); */
+  background: linear-gradient(92.38deg, #7824AC 2.46%, #F42F96 93.57%), #C4C4C4;
 }
 
 

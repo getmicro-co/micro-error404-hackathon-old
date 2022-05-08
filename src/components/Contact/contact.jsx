@@ -3,6 +3,7 @@ import Media from '../media/media';
 import email from "./email.png";
 import phone from "./phone.png";
 import web from "./web.png";
+import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import "./contact.css"
 
 export default function Contact(){
@@ -62,10 +63,9 @@ export default function Contact(){
               <textarea name="message" class="input" placeholder='Message'></textarea>
             </div>
             {/* <input type="submit" value="Send" class="btn"> */}
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               <a className='btn-a'  href="mailto:404error@getmicro.co">Send</a>
             </button>
-            {/* </input> */}
             
           </form>
         </div>

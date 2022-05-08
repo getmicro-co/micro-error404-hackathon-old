@@ -2,7 +2,7 @@ import React from "react";
 import "./sponsors.scss";
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS} from "../../Module/General";
-import micro from "./micro.jpeg"
+import micro from "./stint1.png"
 
 function SponsorsHead() {
   return <p className="shead">

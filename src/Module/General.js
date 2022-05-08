@@ -283,7 +283,7 @@ const Prizeinfo = [
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Beginer",
       content:
-        "If this is your first ever hackthon and your project solves real worl problem then you will be awarded in this category."
+        "If this is your first ever hackthon and your project solves real world problem then you will be awarded in this category."
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,

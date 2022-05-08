@@ -128,8 +128,8 @@ h1 {
 }
 
 .timeline-item-content .circle {
-    background: #fff;
-    border: 5px solid linear-gradient(92.38deg, #7824AC 2.46%, #F42F96 93.57%), #C4C4C4;
+    background: #ef2e96;
+    border: 4px solid #7824AC;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
