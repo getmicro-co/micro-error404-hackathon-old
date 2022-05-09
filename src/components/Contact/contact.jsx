@@ -1,9 +1,8 @@
 import React from 'react'
 import Media from '../media/media';
-import email from "./email.png";
-import phone from "./phone.png";
-import web from "./web.png";
-import {Btn} from "../Top-division-components/Top-division-components.jsx";
+import EmailIcon from '@mui/icons-material/Email'; 
+import CallIcon from '@mui/icons-material/Call';
+import LanguageIcon from '@mui/icons-material/Language';
 import "./contact.css"
 
 export default function Contact(){
@@ -23,17 +22,25 @@ export default function Contact(){
               <p>92 Cherry Drive Uniondale, NY 11553</p>
             </div> */}
             <div class="information">
-              <img src={email} class="icon" alt="" />
+                <EmailIcon className='icon'/> 
               <h4 >
+              {/* <img src= "" class="icon" alt="" /> */}
                 <a style={{'color':'#f76e92'}} href="mailto:404error@getmicro.co">404error@getmicro.co</a>
               </h4>
             </div>
             <div class="information">
-              <img src={phone} class="icon" alt="" />
+              <CallIcon className='icon'/>
+              {/* <img src= "https://img.icons8.com/color/48/000000/phone.png" */}
+                  {/* // {phone}  */}
+                  {/* class="icon" alt="" /> */}
               <h4 style={{'color':'#f76e92'}}>+91 8660626844</h4>
             </div>
             <div class="information">
-              <img src={web} class="icon" alt="" />
+              <LanguageIcon className='icon'/>
+              {/* <img 
+                  src="https://img.icons8.com/color/48/000000/domain--v1.png"
+                  // {web} 
+                  class="icon" alt="" /> */}
               <h4><a href="https://getmicro.co/" style={{'color':'#f76e92'}}>Micro</a></h4>
             </div>
           </div>

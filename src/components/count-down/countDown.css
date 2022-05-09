@@ -46,13 +46,21 @@
   top: -20rem;
 }
 
+@media screen and (max-width:990px)  {
+  .rocket{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: -20rem;
+  }
+}
 
 
 
 
 
-@media  (max-width: 570px){
+@media all and (min-width: 768px) and (max-width: 1024px) { 
 .counter{
-  margin: 30px auto;
+  margin: 3rem;
 }
 }

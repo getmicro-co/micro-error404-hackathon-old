@@ -14,14 +14,6 @@ import CountDown from "../count-down/countDown.jsx";
 // import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
 import {Member,} from "../team/team.jsx";
-import pattern from "./pattern4.png";
-import bg1 from "./bg1.jpeg";
-import bg2 from "./bg2.jpeg";
-import bg3 from "./bg3.jpeg";
-import bg4 from "./bg4.jpeg";
-import bg5 from "./bg5.jpeg";
-import bg6 from "./bg6.jpeg";
-import bg7 from "./bg7.jpeg";
 import TimelineItem from "../Timeline/Timeline.jsx";
 
 import {
@@ -29,10 +21,8 @@ import {
   TeamInfo,
   JudgesInfo,
   organizers,
-  sponsorLogos,
   frequentlyAskedQuestions,
   Timeline,
-  FOOTER
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -58,7 +48,7 @@ function PrizeGroup(props) {
   return (
     <Row>
       {props.map(s => (
-        <Col className="" sm={12} lg={4} md={6}>
+        <Col className="" sm={12} lg={4} md={4}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
@@ -71,7 +61,7 @@ function TeamMembers(props) {
   return (
     <Row className="members">
       {props.map(s => (
-        <Col className="" sm={12} lg={4} md={4}>
+        <Col className="" sm={4} lg={4} md={4}>
           <Member info={s} />
         </Col>
       ))}
@@ -136,14 +126,16 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row> */}
-        <Row className="aboutsection" id="prizes">
-          <PrizeHeading type="About" />
-          <hr className="hr"/>
-          <Col className="info-div" sm={12} lg={8} md={8}>
-            <LogoSectionAbout />
-            <Logo />
-          </Col>
-        </Row>
+        <div id="about">
+          <Row className="aboutsection">
+            <PrizeHeading type="About" />
+            <hr className="hr"/>
+            <Col className="info-div" sm={12} lg={8} md={8}>
+              <LogoSectionAbout />
+              <Logo />
+            </Col>
+          </Row>
+        </div>
 
         {/* about section end */}
 
@@ -154,20 +146,18 @@ export default function HomePage(props) {
         </Row>
        
        {/* Timeline Section */}
-          <PrizeHeading type="Timeline" />
-          <hr className="hr"/>
-        <Row className="timelinesection non-coding" id="timeline">
-         { Timeline.length > 0 && (
-        <div className="timeline-container">
-            {Timeline.map((data, idx) => (
-                <TimelineItem data={data} key={idx} />
-            ))}
-        </div>)}
+        <PrizeHeading type="Timeline" id="timeline"/>
+         <hr className="hr"/>
+        <Row className="timelinesection non-coding" id="timeline" >
+            { Timeline.length > 0 && (
+            <div className="timeline-container">
+                {Timeline.map((data, idx) => (
+                    <TimelineItem data={data} key={idx} />
+                ))}
+            </div>)}
+        </Row>
 
        {/* Timeline ends */}
-    
-
-        </Row>
 
         {/* ********Prizes here ***** */}
           <PrizeHeading type="Prize Categories" />
@@ -194,13 +184,14 @@ export default function HomePage(props) {
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row> */}
-
-        <Row className="sponsorsection" id="sponsors">
-          <PrizeHeading type="Sponsors" />
-          <hr className="hr"/>
-          <SponsorUS />
-          <SponsorsHead />
-        </Row>
+        <div id="sponsors">
+          <Row className="sponsorsection">
+            <PrizeHeading type="Sponsors" />
+            <hr className="hr"/>
+            <SponsorUS />
+            <SponsorsHead />
+          </Row>
+        </div>
 
         {/* ********Sponsors ending here ***** */}
 
@@ -219,11 +210,9 @@ export default function HomePage(props) {
         </div>
         </section> */}
         <Row className="teamsection" id="team">
-          <PrizeHeading type="Team" classNamehr />
+          <PrizeHeading type="Team" />
            <hr className="hr"/>
-          <div>
           {TeamInfo.map(TeamMembers)}
-          </div>  
         </Row>
        
 
@@ -271,13 +260,15 @@ export default function HomePage(props) {
 
 
          {/* ********Frequently asked Questions here ***** */}
-          <PrizeHeading type="Frequently Asked Questions" />
-          <hr className="hr"/>
-         <Row className="faqsection" id="faq">
-          <div className="Myfaqs">
-            {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          </div>  
-        </Row>
+         <div id="faq">
+            <PrizeHeading type="Frequently Asked Questions" />
+            <hr className="hr"/>
+          <Row className="faqsection">
+            <div className="Myfaqs">
+              {frequentlyAskedQuestions.map(FrequentlyAsked)}
+            </div>  
+          </Row>
+         </div>
         {/* ********Frequently asked Questions ending here ***** */}  
          
          {/* ********Contact form ***** */}

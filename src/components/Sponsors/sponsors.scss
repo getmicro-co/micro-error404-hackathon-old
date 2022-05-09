@@ -35,6 +35,13 @@ Btn .sponsor_btn{
 //   margin-bottom: 7rem;
 // }
 
+@media screen and (max-width:990px) {
+  .microimg{
+    width: 32%;
+  }
+}
+
+
 /* more smaller */
 @media  (max-width: 570px){
   .shead{

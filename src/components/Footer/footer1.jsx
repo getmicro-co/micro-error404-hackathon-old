@@ -1,7 +1,7 @@
 import React  from "react";
 import "./footer1.scss";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import {TOP_SECTION, FOOTER} from "../../Module/General";
+import {TOP_SECTION,} from "../../Module/General";
 import Media from "../media/media";
 
 

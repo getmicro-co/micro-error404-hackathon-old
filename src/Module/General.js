@@ -18,12 +18,9 @@ import aboutImage from "../components/logo-section/cyborg.png";
  * or you can provide a cloud link in src
  */
 
-// Importing all Team members images  from Assets
-import me from "./Assets/teami/me.png";
-import moon from "./Assets/teami/moon.png";
+
 import Ryah from "./Assets/teami/Ryah.jpg";
-import lyin from "./Assets/teami/lyin.jpg";
-import zoha from "./Assets/teami/zoha.png";
+
 
 import abhay from "./Assets/teami/AbhayKumar.jpeg";
 import yash from "./Assets/teami/YashKataria.jpeg";
@@ -46,7 +43,60 @@ import ashi from "./Assets/teami/ashirwad.jpg"
 import boy from "./Assets/boy.png";
 
 
+const Navbar = [
+    { 
+      title:'Home',
+      url: '#home',
+      class: 'links'
+    },
+    { 
+      title:'About',
+      url: '#about',
+      class: 'links'
+    },
+    { 
+      title:'Tracks',
+      url: '#tracks',
+      class: 'links'
+    },
+    { 
+      title:'Timeline',
+      url: '#timeline',
+      class: 'links'
+    },
+    { 
+      title:'Prizes',
+      url: '#prizes',
+      class: 'links'
+    },
+    { 
+      title:'Sponsors',
+      url: '#sponsors',
+      class: 'links'
+    },
+    { 
+      title:'Resource',
+      url: 'https://workdrive.zoho.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a',
+      class: 'links',
+      target:"_blank"
+    },
+    { 
+      title:'Team',
+      url: '#team',
+      class: 'links'
+    },
+    { 
+      title:'FAQ',
+      url: '#faq',
+      class: 'links'
+    },
+    { 
+      title:'Contact',
+      url: '#contact',
+      class: 'links'
+    },
 
+]
 
 
 const TOP_SECTION = {
@@ -344,8 +394,8 @@ const TeamInfo = [
       img: yash
     }
   ],
+  //Array 2
   [
-    //Array 2
     {
       Name: "Abhay Kumar",
       role: "Discord Moderator",
@@ -357,8 +407,9 @@ const TeamInfo = [
       role: "Discord Moderator",
       linkedin: "https://www.linkedin.com/in/aminoxix/",
       img: ak
-    },    
-  ] 
+    }  
+  ],
+   
 ];
 
 
@@ -481,6 +532,7 @@ const frequentlyAskedQuestions  = [
 
 export {
   TOP_SECTION,
+  Navbar,
   MIDDLE_SECTION,
   SOCIALS,
   FOOTER,

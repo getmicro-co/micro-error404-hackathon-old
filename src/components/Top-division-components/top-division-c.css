@@ -34,6 +34,29 @@ button {
   position: relative;
 }
 
+
+
+
+@media screen and (max-width:990px) {
+  button{
+    width: 19rem;
+  }
+  .join_dis {
+    width: 65%;
+  }
+  .Myinfo {
+    text-align: left;
+    margin-left: 10vh !important;
+  }
+}
+
+
+
+
+
+
+
+
 .join_disco {
   width: 25rem;
   background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);

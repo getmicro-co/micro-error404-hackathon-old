@@ -283,22 +283,53 @@ top: -50px;
 }
 
 
-
-@media only screen
-and (max-width : 720px) {
+@media all and (min-width: 768px) and (max-width: 1024px) { 
   
-  .slanted-div {
-    padding: 100px 0;
+  .aboutsection ,.timelinesection, .microsection{
+    margin: 3rem 3rem 10rem;
   }
   
- 
+  .tracksection {
+    margin:  3rem ;
+    padding:1px 6vh 3vh;
+  }
+  .prizesection {
+    margin:  3rem ;
+    padding:1px 6vh 3vh;
+  }
+  .sponsorSection {
+    padding: 5rem;
+    margin: 3rem 3rem 10rem;
+  }
+  .teamsection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .judgesection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .organizersection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .faqsection {
+    margin: 3rem 3rem 10rem;
+    padding: 1vh 0vh 3vh;
+  }
 
-}
+  .contactsection{
+    margin: 3rem 3rem 10rem;
+    padding: 0;
+  }
 
-
-
-
-@media (max-width: 570px) {
+  .contactsection .form{
+    margin: 0;
+  }
+  
+  .info{
+    margin-top: 5vh;
+  }
   .mediaInfo {
     margin-top: 0;
   }
@@ -306,24 +337,11 @@ and (max-width : 720px) {
     background-size: auto 100vh;
   }
 
-  .faqsSection {
-    padding: 0;
-    margin-top: 0vh;
-  }
   .members {
     margin: 0;
     padding: 0;
   }
 
-  .prizesection {
-    margin: 5vh 0 0 0;
-    padding: 17vh 0 0 4vh;
-  }
-  .sponsorSection {
-    padding: 0;
-    margin: 0;
-    margin: 12rem auto;
-  }
   .logoSection {
     text-align: center;
     padding: 20vh 0vh 0 0vh;

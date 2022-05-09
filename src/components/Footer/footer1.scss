@@ -19,10 +19,12 @@
 .footer h5{
   // text-align: left;
   color: #fff;
+  font-size:14px;
 }
 
 .Desc{
   color: #ffffff;
+  font-size: 17px;
 }
 
 
@@ -33,6 +35,7 @@
 }
 .footer a {
   color:#ffffff;
+  font-size: 17px;
 }
 .footer a:hover {
   color:hsla(344, 90%, 70%, 1);
@@ -110,9 +113,21 @@ ul{
   margin:0  10px;
 }
 
-@media (max-width: 570px) {
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .footer-container{
+    padding: 50px 0px 20px 0;
+    box-shadow: 0px -10px 10px rgba(76, 0, 255, 0.9);
+  }
   .Register_a a {
     margin:0 0;
+    text-align: left;
+  }
+  .Register_a li{
+    margin: 6px 10px;
+  }
+  .tagline{
+    width: 100%;
+    margin: 0;
   }
   .Volunteer {
     margin-top: 5px;
