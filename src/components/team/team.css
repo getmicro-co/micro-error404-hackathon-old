@@ -17,7 +17,9 @@
   display: block;
   margin: 0 auto;
   /* border: 5px solid rgb(110, 185, 247); */
-  border:5px solid #F02F97;
+  /* border:5px solid #F02F97; */
+  padding: 4px;
+  background:linear-gradient(0.38deg,#7824ac 25.46%,#f42f96 77.57%),#C4C4C4;;
 }
 .members-link {
   text-align: center;
