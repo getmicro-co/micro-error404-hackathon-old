@@ -111,7 +111,7 @@ const NAVBAR = ({}) => {
                     </a>
                       {item.dropdown && 
                         ( <ul className="nav_submenu">
-                            <li className="nav-submenu-item"><a>Participant</a></li>
+                            <li className="nav-submenu-item"><a>Participants</a></li>
                             <li className="nav-submenu-item"><a>Mentors</a></li>
                             <li className="nav-submenu-item"><a>Sponsors</a></li>
                           </ul>  

@@ -117,7 +117,7 @@ const TOP_SECTION = {
   MENTOR_FORM_LINK:
     "https://tally.so#tally-open=mRGGJv&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
   SPONSOR_FORM_LINK:
-    "https://github.com/getmicro-co/micro-error404-hackathon"
+    "mailto:404error@getmicro.co"
 };
 
 const SOCIALS = {
@@ -126,7 +126,7 @@ const SOCIALS = {
   linkedin: "https://www.linkedin.com/company/get-micro/",
   twitter: "https://twitter.com",
   web: "https://getmicro.co/",
-  email: "mailto:hello@abcd",
+  email: "mailto:404error@getmicro.co",
   mail: "hello@abcd.tech"
 };
 
