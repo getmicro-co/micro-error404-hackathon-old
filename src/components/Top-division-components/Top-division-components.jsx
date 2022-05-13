@@ -53,24 +53,28 @@ function Myinfo() {
         {/* </Row> */}
 
       {/* This is top division buttons */}
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+      >
         {" "}
         <Btn class="sponsor" type="Register" overlay="Fill the form" />
       </a>
-      <a href={TOP_SECTION.DISCORD_LINK}>
+      <a href= {TOP_SECTION.DISCORD_LINK}
+      >
         {" "}
         <Btn class="register" type="Join Discord" overlay="Stay updated" />
       </a>
 
       
-      <a href={TOP_SECTION.MENTOR_FORM_LINK}>
+      <a href=
+        {TOP_SECTION.MENTOR_FORM_LINK}>
         {" "}
-        <Btn class="sponsor" type=" Call for Mentor's" overlay="Guide the students" />
+        <Btn class="sponsor" type="Call for Mentor's" overlay="Guide the students" />
       </a>
 
       <a href={TOP_SECTION.SPONSOR_FORM_LINK}>
         {" "}
-        <Btn class="register" type="Sponsors" overlay="Sponsor us" />
+        <Btn 
+          class="register" type="Sponsors" overlay="Sponsor us" />
         {/* top division buttons ends here */}
       </a>
       </div>

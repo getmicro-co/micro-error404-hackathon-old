@@ -37,6 +37,16 @@ const Wrapper = styled.div`
   } */}
 `;
 
+class Submenu extends React.Component {
+  render() {
+    return (
+      <ul className="dropdown">
+        <li><a>Our Company</a></li>
+      </ul>
+    )
+  }
+}
+
 const NAVBAR = ({}) => {
 
   const [toggle, setToggle] = useState(true);
@@ -96,9 +106,16 @@ const NAVBAR = ({}) => {
               {Navbar.map((item,index)=>{
                   return (
                     <li id={index}>
-                    <a target={item.target} href={item.url}>
+                    <a href={item.url}>
                       <span className={item.class}>{item.title}</span>{" "}
                     </a>
+                      {item.dropdown && 
+                        ( <ul className="nav_submenu">
+                            <li className="nav-submenu-item"><a>Participant</a></li>
+                            <li className="nav-submenu-item"><a>Mentors</a></li>
+                            <li className="nav-submenu-item"><a>Sponsors</a></li>
+                          </ul>  
+                        )}
                   </li>)
 
               })}

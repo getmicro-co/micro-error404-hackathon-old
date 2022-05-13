@@ -32,7 +32,9 @@ import ar from "./Assets/teami/ar.jpeg";
 import vk from "./Assets/teami/vk.jpeg";
 import sr from "./Assets/teami/sr.jpeg";
 import pkp from "./Assets/teami/pkp.jpeg";
-import ashi from "./Assets/teami/ashirwad.jpg"
+import ashi from "./Assets/teami/ashirwad.jpg";
+import hk  from "./Assets/teami/hk.jpeg";
+
 
 
 /** Put all your Team member image inside folder `Team Images`
@@ -75,10 +77,11 @@ const Navbar = [
       class: 'links'
     },
     { 
-      title:'Resource',
-      url: 'https://workdrive.zoho.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a',
+      title:'Resources',
+      url: "",
+      // 'https://workdrive.zoho.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a',
       class: 'links',
-      target:"_blank"
+      dropdown: "#",
     },
     { 
       title:'Team',
@@ -109,10 +112,10 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION:
     "Join us on 15th July, 2022 with over 1000+ students from across the world for 72 hours of creation, innovation & fun.",
   IMG_SRC: boy,
-  HACKERS_REGISTRATION_FORM_LINK: "dumba",
+  HACKERS_REGISTRATION_FORM_LINK: "https://tally.so#tally-open=3q45gO&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
   DISCORD_LINK: "https://discord.com/invite/G3SkQfBk",
   MENTOR_FORM_LINK:
-    "https://github.com/getmicro-co/micro-error404-hackathon",
+    "https://tally.so#tally-open=mRGGJv&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
   SPONSOR_FORM_LINK:
     "https://github.com/getmicro-co/micro-error404-hackathon"
 };
@@ -207,9 +210,9 @@ const Timeline = [
       text: ' Opening Ceremony',
       date: 'July 15th, 2022 ',
       category: {
-    tag: '5.30 PM',
-    color: '#FFDB14'
-  },
+      tag: '5.30 PM',
+      color: '#FFDB14'
+    },
       link: {
           url: 'https://google.com',
           text: 'Meet Link'
@@ -459,10 +462,10 @@ const JudgesInfo = [
       img: pkp
     },
     {
-      Name: "Ryah Garcia",
-      role: "Organizer",
-      linkedin: "",
-      img: Ryah
+      Name: " Yamini Harikrishnan",
+      role: "AI & ML -IIT,Hyd | PMP® | SAFe PO/PM | 6σ BlackBelt",
+      linkedin: "https://www.linkedin.com/in/yamini-harikrishnan/",
+      img: hk
     },
   ],
 

@@ -19,6 +19,58 @@ nav {
   }
 }
 
+// Submenu
+.nav__submenu {
+  background: orange;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+.nav_submenu {
+  font-weight: 300;
+    border-radius: 8px;
+    text-transform: none;
+    padding: 4px 12px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    width: 109px;
+    height: 100px;
+    color: #ffff;
+    background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+}
+
+.nav_submenu li a{
+  margin: 0;
+  text-decoration: none;
+  color: #ffff;
+}
+.nav_submenu li {
+  margin: 5px;
+}
+    
+.nav-submenu-item:hover {
+    background: rgba(rgb(201, 62, 108), 0.1);
+}
+
+
 // Navbar toggler
 .toggle-div{
   text-align: right;
@@ -61,6 +113,7 @@ nav {
   nav ul{display: none;}
   nav ul li {
     cursor: pointer;
+    transition-duration: 0.5s;
     margin: 1.2rem 44%!important;
   }
   .links{
@@ -68,6 +121,10 @@ nav {
     width: 100%;
   }
   .links:hover{
+    .nav-submenu{
+      display: block;
+      transition: 1s;
+    }
     border-radius: 0;
   }
 
@@ -123,7 +180,7 @@ ul {
 
 nav ul li {
   display: inline-block;
-  margin:  0 0 0 5rem;
+  margin:  0 0 0 4.5rem;
 }
 .links {
   color: rgb(255, 255, 255);
