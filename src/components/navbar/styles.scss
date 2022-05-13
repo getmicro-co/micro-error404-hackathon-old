@@ -48,26 +48,30 @@ ul li ul li {
     text-transform: none;
     padding: 4px 12px;
     font-size: 15px;
+    left: 48pc;
     margin-top: 10px;
     display: none;
     position: absolute;
-    width: 109px;
+    width: 140px;
     height: 100px;
     color: #ffff;
     background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
 }
 
 .nav_submenu li a{
-  margin: 0;
+  margin: 0 2px;
   text-decoration: none;
   color: #ffff;
 }
 .nav_submenu li {
-  margin: 5px;
+  margin: 4px;
+  align-items: center;
 }
     
 .nav-submenu-item:hover {
-    background: rgba(rgb(201, 62, 108), 0.1);
+  background: rgb(227, 65, 94);
+  padding: 1px 4px;
+  border-radius: 10px;
 }
 
 

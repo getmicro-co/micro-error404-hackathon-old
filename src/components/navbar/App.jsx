@@ -3,6 +3,7 @@ import HomePage from "../Main-page/HomePage";
 import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import {TOP_SECTION,Navbar} from "../../Module/General";
 import MenuIcon from '@mui/icons-material/Menu';
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CloseIcon from '@mui/icons-material/Close';
 // import {Btn} from "../Top-division-components/Top-division-components";
 import styled from "styled-components";
@@ -111,9 +112,9 @@ const NAVBAR = ({}) => {
                     </a>
                       {item.dropdown && 
                         ( <ul className="nav_submenu">
-                            <li className="nav-submenu-item"><a>Participants</a></li>
-                            <li className="nav-submenu-item"><a>Mentors</a></li>
-                            <li className="nav-submenu-item"><a>Sponsors</a></li>
+                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Participants</a></li>
+                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Mentors</a></li>
+                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Sponsors</a></li>
                           </ul>  
                         )}
                   </li>)
