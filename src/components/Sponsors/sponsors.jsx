@@ -39,7 +39,7 @@ function Micro() {
   return (
     <div className="joinT sponsorUS">
       {/* <h3>Interested in Sponsoring </h3> */}
-      <a href={SOCIALS.web}>
+      <a target="_blank" href={SOCIALS.web}>
         <Btn className="sponsor_btn" type="Visit us" overlay="See our work" />
       </a>{" "}
     </div>

@@ -63,7 +63,7 @@ function Myinfo() {
         {" "}
         <Btn class="sponsor" type="Register" overlay="Fill the form" />
       </a>
-      <a href= {TOP_SECTION.DISCORD_LINK}
+      <a target="_blank" href= {TOP_SECTION.DISCORD_LINK}
       >
         {" "}
         <Btn class="register" type="Join Discord" overlay="Stay updated" />

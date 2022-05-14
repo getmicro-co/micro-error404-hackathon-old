@@ -41,7 +41,7 @@ export default function Contact(){
                   src="https://img.icons8.com/color/48/000000/domain--v1.png"
                   // {web} 
                   class="icon" alt="" /> */}
-              <h4><a href="https://getmicro.co/" style={{'color':'#f76e92'}}>Micro</a></h4>
+              <h4><a target="_blank" href="https://getmicro.co/" style={{'color':'#f76e92'}}>Micro</a></h4>
             </div>
           </div>
 
