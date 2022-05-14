@@ -81,7 +81,7 @@ const Navbar = [
       url: "",
       // 'https://workdrive.zoho.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a',
       class: 'links',
-      dropdown: "#",
+      dropdown: ".",
     },
     { 
       title:'Team',
@@ -111,7 +111,8 @@ const TOP_SECTION = {
   Typed_effect: ["72 hours of engagement", "Win awesome prizes","Bring ideas to reality","Embrace Networking"],
   SHORT_DESCRIPTION:
     "Join us on 15th July, 2022 with over 1000+ students from across the world for 72 hours of creation, innovation & fun.",
-  IMG_SRC: boy,
+  SHORT_DESCRIPTION_DATE: "15th July, 2022",
+    IMG_SRC: boy,
   HACKERS_REGISTRATION_FORM_LINK: "https://tally.so#tally-open=3q45gO&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
   DISCORD_LINK: "https://discord.com/invite/G3SkQfBk",
   MENTOR_FORM_LINK:

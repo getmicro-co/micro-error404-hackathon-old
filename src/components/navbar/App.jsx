@@ -5,16 +5,16 @@ import {TOP_SECTION,Navbar} from "../../Module/General";
 import MenuIcon from '@mui/icons-material/Menu';
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CloseIcon from '@mui/icons-material/Close';
-// import {Btn} from "../Top-division-components/Top-division-components";
 import styled from "styled-components";
-// import toggler from "../toggle-button/toggle";
 import "./styles.scss";
+// import {Btn} from "../Top-division-components/Top-division-components";
+// import toggler from "../toggle-button/toggle";
 
 const Wrapper = styled.div`
   display: flex;
   width:100%; 
   ${'' /* justify-content: space-between; */}
-  margin-top: 20px;
+  ${'' /* padding-top: 10px; */}
 
   .Volunteer{
     margin: -10px 0 0  100px;
@@ -38,14 +38,17 @@ const Wrapper = styled.div`
   } */}
 `;
 
-class Submenu extends React.Component {
-  render() {
-    return (
-      <ul className="dropdown">
-        <li><a>Our Company</a></li>
-      </ul>
-    )
-  }
+function Popup(props) {
+    return (props.trigger) ? 
+    (
+      <div className="popup">
+        <div className="popup-inner">
+          <button className="close-btn">Close</button>
+          {props.children}
+        </div>
+      </div>
+    ) : "";
+
 }
 
 const NAVBAR = ({}) => {
@@ -112,9 +115,18 @@ const NAVBAR = ({}) => {
                     </a>
                       {item.dropdown && 
                         ( <ul className="nav_submenu">
-                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Participants</a></li>
-                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Mentors</a></li>
-                            <li className="nav-submenu-item"><DownloadForOfflineIcon/><a>Sponsors</a></li>
+                            <li className="nav-submenu-item">
+                              <DownloadForOfflineIcon/>
+                              <a href="./sample.pdf" download="sample.pdf">Participants</a>
+                            </li>
+                            <li className="nav-submenu-item">
+                              <DownloadForOfflineIcon/>
+                              <a href="./sample.pdf" download="sample.pdf">Mentors</a>
+                            </li>
+                            <li className="nav-submenu-item">
+                              <DownloadForOfflineIcon/>
+                              <a href="./sample.pdf" download="sample.pdf">Sponsors</a>
+                            </li>
                           </ul>  
                         )}
                   </li>)

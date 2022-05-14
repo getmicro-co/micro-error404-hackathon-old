@@ -73,6 +73,7 @@ button {
 
 .register {
   margin-left: 9rem;
+  z-index: 9;
   /* border: 2px solid rgb(255, 255, 255); */
   background-color: transparent;
 }
