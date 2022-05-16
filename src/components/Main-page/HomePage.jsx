@@ -168,7 +168,7 @@ export default function HomePage(props) {
         {/* ********Prizes ending here ***** */}
 
         {/* Micro */}
-        <Row className="microsection" id="prizes">
+        <Row className="microsection" id="micro">
           <PrizeHeading type="Short Stint To Micro" />
           <hr className="hr"/>
           <Micro />

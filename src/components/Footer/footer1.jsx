@@ -31,10 +31,10 @@ export default function Footer() {
         <div className="Register_a">
             <h2>Quick Links</h2>
             <ul>
-              <li><a href="">Registration</a></li>
+              <li><a href="#micro">Know Our Firm</a></li>
+              <li><a href="#home">Resources</a></li>
               <li><a href="#sponsors">Sponsors</a></li>
-              <li><a href="">Call for Mentors</a></li>
-              <li><a href="https://workdrive.zohoexternal.com/folder/a807i5b3f66b94b324338934a8ba76c55c84a?layout=list">Resources</a></li>
+              <li><a href="#countdown">Countdown</a></li>
             </ul>
         </div>
 

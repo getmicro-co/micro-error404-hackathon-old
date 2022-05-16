@@ -335,7 +335,7 @@ const Prizeinfo = [
     //Array 2
     {
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Beginer",
+      type: "Best Beginner",
       content:
         "If this is your first ever hackthon and your project solves real world problem then you will be awarded in this category."
     },

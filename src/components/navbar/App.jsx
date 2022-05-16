@@ -7,6 +7,9 @@ import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CloseIcon from '@mui/icons-material/Close';
 import styled from "styled-components";
 import "./styles.scss";
+import participants from "./participant.png";
+import mentor from "./mentor.png";
+import sponsor from "./sponsor.jpg";
 // import {Btn} from "../Top-division-components/Top-division-components";
 // import toggler from "../toggle-button/toggle";
 
@@ -116,15 +119,15 @@ const NAVBAR = ({}) => {
                       {item.dropdown && 
                         ( <ul className="nav_submenu">
                             <li className="nav-submenu-item">
-                              <DownloadForOfflineIcon/>
+                              <img src={participants} className="resource-icons"/>
                               <a href="./sample.pdf" download="sample.pdf">Participants</a>
                             </li>
                             <li className="nav-submenu-item">
-                              <DownloadForOfflineIcon/>
+                              <img src={mentor} className="resource-icons"/>
                               <a href="./sample.pdf" download="sample.pdf">Mentors</a>
                             </li>
                             <li className="nav-submenu-item">
-                              <DownloadForOfflineIcon/>
+                              <img src={sponsor} className="resource-icons"/>
                               <a href="./sample.pdf" download="sample.pdf">Sponsors</a>
                             </li>
                           </ul>  

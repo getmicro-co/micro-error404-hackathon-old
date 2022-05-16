@@ -46,9 +46,13 @@ svg:not(:root) {
     display: block;
     position: absolute;
     width: 140px;
-    height: 110px;
+    height: 118px;
     color: #ffff;
     background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+}
+
+.resource-icons{
+  width: 25px;
 }
 
 .nav_submenu li a{
