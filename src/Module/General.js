@@ -114,7 +114,7 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION_DATE: "15th July, 2022",
     IMG_SRC: boy,
   HACKERS_REGISTRATION_FORM_LINK: "https://tally.so#tally-open=3q45gO&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
-  DISCORD_LINK: "https://discord.com/invite/G3SkQfBk",
+  DISCORD_LINK: "https://discord.com/invite/bsFUEdysfP",
   MENTOR_FORM_LINK:
     "https://tally.so#tally-open=mRGGJv&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
   SPONSOR_FORM_LINK:
