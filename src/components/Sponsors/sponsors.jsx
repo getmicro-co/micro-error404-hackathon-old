@@ -12,7 +12,6 @@ function SponsorsHead() {
         perspectives. We are looking for sponsors who is interested 
         in investing in our mission and willing to support our event 
         to make it a success story.
-
   </p>;
 }
 
