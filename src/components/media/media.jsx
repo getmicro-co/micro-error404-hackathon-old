@@ -22,7 +22,7 @@ export default function Media() {
       </div>
       <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-        <SocialIcon url="https://discord.com/invite/G3SkQfBk"  fgColor="#fff"/>
+        <SocialIcon url="https://discord.com/invite/bsFUEdysfP"  fgColor="#fff"/>
         </a>
       </div>
 
