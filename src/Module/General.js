@@ -209,7 +209,7 @@ const Tracks =  [
 const Timeline = [
   {
       text: ' Opening Ceremony',
-      date: 'July 15th, 2022 ',
+      date: 'August 5th, 2022 ',
       category: {
       tag: '5.30 PM',
       color: '#FFDB14'
@@ -221,7 +221,7 @@ const Timeline = [
   },
   {
       text: 'Hackathon Period Begins',
-      date: 'July 15th, 2022',
+      date: 'August 5th, 2022',
       category: {
     tag: '7 PM',
     color: '#e17b77'
@@ -233,7 +233,7 @@ const Timeline = [
   },
   {
       text: 'Initial Evaluation Deadline',
-      date: 'July 17th, 2022',
+      date: 'August 7th, 2022',
       category: {
     tag: '9 AM',
     color: '#1DA1F2'
@@ -246,7 +246,7 @@ const Timeline = [
   {
       text:
           'Hackathon Submission Period Ends',
-      date: 'July 18th, 2022',
+      date: 'August 8th, 2022',
       category: {
     tag: '7 PM',
     color: '#018f69'
@@ -259,7 +259,7 @@ const Timeline = [
   },
   {
       text: 'Top 20 Teams will be released',
-      date: 'July 20th,, 2022',
+      date: 'August 10th,, 2022',
       category: {
     tag: ' 4 PM',
     color: 'red'
@@ -271,7 +271,7 @@ const Timeline = [
   },
   {
       text: 'Demonstration of Projects to Judges',
-      date: 'July 21st, 2022',
+      date: 'August 11th, 2022',
       category: {
     tag: ' 4PM',
     color: 'orange'
@@ -283,7 +283,7 @@ const Timeline = [
   },
   {
       text: 'Results Declared on Closing Ceremony',
-      date: 'July 23rd, 2022',
+      date: 'August 13th, 2022',
       category: {
     tag: ' 7 PM',
     color: 'purple'
