@@ -9,7 +9,9 @@ function LogoSectionAbout() {
     <div className="LogoSectionAbout">
       {/* <h1>{MIDDLE_SECTION.TITLE}</h1> */}
       {/* <hr className="hr"/> */}
-      <p>{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
+      <p>{MIDDLE_SECTION.LONG_DESCRIPTION1}</p>
+      <p>{MIDDLE_SECTION.LONG_DESCRIPTION2}</p>
+      <p>{MIDDLE_SECTION.LONG_DESCRIPTION3}</p>
     </div>
   );
 }

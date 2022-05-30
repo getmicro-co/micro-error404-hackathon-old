@@ -120,15 +120,15 @@ const NAVBAR = ({}) => {
                         ( <ul className="nav_submenu">
                             <li className="nav-submenu-item">
                               <img src={participants} className="resource-icons"/>
-                              <a href="./sample.pdf" download="sample.pdf">Participants</a>
+                              <a href="/Error 404 Participant's Guide.pdf" download="Error 404 Participant's Guide.pdf">Participants</a>
                             </li>
                             <li className="nav-submenu-item">
                               <img src={mentor} className="resource-icons"/>
-                              <a href="./sample.pdf" download="sample.pdf">Mentors</a>
+                              <a href="/Error 404 Mentor's Guide.pdf" download="Error 404 Mentor's Guide.pdf">Mentors</a>
                             </li>
                             <li className="nav-submenu-item">
                               <img src={sponsor} className="resource-icons"/>
-                              <a href="./sample.pdf" download="sample.pdf">Sponsors</a>
+                              <a href="/Error 404 Sponsor's Guide.pdf" download="Error 404 Sponsor's Guide.pdf">Sponsors</a>
                             </li>
                           </ul>  
                         )}

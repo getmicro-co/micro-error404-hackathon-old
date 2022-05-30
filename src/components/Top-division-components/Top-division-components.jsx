@@ -38,7 +38,7 @@ function Myinfo() {
       <About />
       <p> 
         {/* {TOP_SECTION.SHORT_DESCRIPTION} */}
-        Join us on <span style={{color:'#F1507B'}}> 15th July, 2022 </span>
+        Join us on <span style={{color:'#F1507B'}}> 5th August, 2022 </span>
         with over 1000+ students from across the world 
         for 72 hours of creation, innovation & fun.
       </p>
