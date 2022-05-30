@@ -134,7 +134,8 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "About",
   LONG_DESCRIPTION:
-    "Error 404 Hacks is a Hackathon aimed at providing an outlet for all beings to develop their ideas, as well as fostering an environment that emboldens them to shine and get access to opportunities that connect them with peers and industry professionals. Geeks with all levels of coding experience are welcomed to discover their potential as problem-solvers and tech leaders. This event is free and organized digitally.",
+    // "Error 404 Hacks is a Hackathon aimed at providing an outlet for all beings to develop their ideas, as well as fostering an environment that emboldens them to shine and get access to opportunities that connect them with peers and industry professionals. Geeks with all levels of coding experience are welcomed to discover their potential as problem-solvers and tech leaders. This event is free and organized digitally.",
+    "Let’s crack the hack with Error 404 Hackathon! Error 404 with get the coding Geek in you to develop innovative solutions to complex problems. A platform where you connect with your peers, and the industry professionals. Participate digitally for free!",
   LOGO_EFFECT: true,
   LOGO: ""
 };
