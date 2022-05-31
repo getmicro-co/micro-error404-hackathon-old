@@ -3,6 +3,7 @@ import HomePage from "../Main-page/HomePage";
 import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import {TOP_SECTION,Navbar} from "../../Module/General";
 import MenuIcon from '@mui/icons-material/Menu';
+import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CloseIcon from '@mui/icons-material/Close';
 import styled from "styled-components";

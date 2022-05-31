@@ -7,7 +7,7 @@ export default function CountDown() {
   return (
     <div className="counter">
     <h1>Kick-Off in</h1>
-      <Countdown className="countdown" date={'2022-07-14'} />
+      <Countdown className="countdown" date={'2022-08-05'} />
       <div className="counterDetails">
         <h2>Days : Hours : Minutes : Seconds</h2>
       </div>
