@@ -11,8 +11,11 @@ import "./styles.scss";
 import participants from "./participant.png";
 import mentor from "./mentor.png";
 import sponsor from "./sponsor.jpg";
-// import {Btn} from "../Top-division-components/Top-division-components";
-// import toggler from "../toggle-button/toggle";
+import MentorGuide from "./Error 404 Mentor's Guide.pdf";
+import SponsorGuide from "./Error 404 Sponsor's Guide.pdf";
+import ParticipantGuide from "./Error 404 Participant's Guide.pdf";
+
+
 
 const Wrapper = styled.div`
   display: flex;
@@ -121,15 +124,15 @@ const NAVBAR = ({}) => {
                         ( <ul className="nav_submenu">
                             <li className="nav-submenu-item">
                               <img src={participants} className="resource-icons"/>
-                              <a href="/Error 404 Participant's Guide.pdf" download="Error 404 Participant's Guide.pdf">Participants</a>
+                              <a href={ParticipantGuide} download="Error 404 Participant's Guide.pdf">Participants</a>
                             </li>
                             <li className="nav-submenu-item">
                               <img src={mentor} className="resource-icons"/>
-                              <a href="/Error 404 Mentor's Guide.pdf" download="Error 404 Mentor's Guide.pdf">Mentors</a>
+                              <a href={MentorGuide} download="Error 404 Mentor's Guide.pdf">Mentors</a>
                             </li>
                             <li className="nav-submenu-item">
                               <img src={sponsor} className="resource-icons"/>
-                              <a href="/Error 404 Sponsor's Guide.pdf" download="Error 404 Sponsor's Guide.pdf">Sponsors</a>
+                              <a href={SponsorGuide} download="Error 404 Sponsor's Guide.pdf">Sponsors</a>
                             </li>
                           </ul>  
                         )}

@@ -12,6 +12,7 @@ import egg from "./Assets/sponsorsLogos/egg.png";
 import ll from "./Assets/sponsorsLogos/ll.png";
 import ACF from "./Assets/sponsorsLogos/ACF.png";
 import Image404 from "../components/Top-division-components/404.png";
+import Image404new from "../components/Top-division-components/404nobg.png";
 import aboutImage from "../components/logo-section/cyborg.png";
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -105,7 +106,8 @@ const Navbar = [
 const TOP_SECTION = {
   TITLE1: "Error",
   TITLE2:"Hackathon",
-  img: Image404, 
+  // img: Image404, 
+  img: Image404new, 
   Img: aboutImage,
   host: "Hosted by Micro.",
   Typed_effect: ["72 hours of engagement", "Win awesome prizes","Bring ideas to reality","Embrace Networking"],
