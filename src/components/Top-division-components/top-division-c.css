@@ -13,9 +13,8 @@
 }
 
 .error404{
-
   width: 30%;
-  transform: rotate(-15deg);
+  /* transform: rotate(-15deg); */
   margin-top: -65px;
   margin-left: -20px;
 }

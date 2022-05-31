@@ -109,7 +109,7 @@ const NAVBAR = ({}) => {
       
       <nav className="nav_bar" style={{backgroundColor: color}}>
         <Wrapper toggle={toggle}>
-          <img className="nav-error404" src={TOP_SECTION.img} alt="" />
+          <img href="/" className="nav-error404" src={TOP_SECTION.img} alt="" />
           <div 
                 className="nav-content" 
               ref={navigation}>

@@ -1,9 +1,7 @@
 import React from "react";
 import "./top-division-c.css";
 import MytypedComponent from "../typing-effect/typing.js";
-// import { Row } from "react-bootstrap";
-// import { Col } from "react-bootstrap";
-// import Media from "../media/media";
+import error404 from "./404.png";
 
 import {TOP_SECTION,} from "../../Module/General";
 
@@ -23,7 +21,7 @@ function About() {
   return (
     <div className="AboutMe">
       <h2 className="h2">{TOP_SECTION.TITLE1}</h2>
-      <img className="error404" src={TOP_SECTION.img} alt="" />
+      <img className="error404" src={error404} alt="" />
       <h2 className="h2">{TOP_SECTION.TITLE2}</h2>
       {/* <p>{TOP_SECTION.host}</p> */}
       <p>Hosted by<a target="_blank" href="https://getmicro.co/" style={{color:'#F1507B'}}> Micro.</a></p>
