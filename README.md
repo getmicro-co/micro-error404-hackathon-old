@@ -11,4 +11,8 @@ who don't have formal education are also welcomed.
 
 All it matters is your skills and there is no other limitations. Don't miss on to this opportunity. 
 
-You will also be hired irrespective of being an top participant / mentor, so we're keen to see out your involvement throughout the period.
+You will also be **hired** irrespective of being an top participant / mentor, so we're keen to see out your involvement throughout the period.
+
+Tracks : Artificial Intelligence, BlockChain, AR/VR, Web Development, Mobile Development and Open Hardware
+
+Prize Categories - First Place, Second Place, Third Place, Best Beginner, HealthCare, Education, Finance, Remote World and Open Innovation
