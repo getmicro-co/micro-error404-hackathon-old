@@ -1,6 +1,6 @@
 {
-  "homepage": "https://getmicro-co.github.io/micro-error404-hackathon/",
   "name": "error-404-hackathon",
+  "homepage": "https://getmicro-co.github.io/micro-error404-hackathon/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -78,15 +78,15 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "description": "### Thanks [ella](https://github.com/eilla1) for design snippets",
+  "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
+    "url": "git+https://github.com/getmicro-co/micro-error404-hackathon"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
+    "url": "https://github.com/getmicro-co/micro-error404-hackathon/issues"
   }
 }
