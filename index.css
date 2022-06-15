@@ -1,0 +1,23 @@
+/* :root {
+    --dark: #171a1b;
+    --light: #f7f7f7;
+    --grey: #a8a8a8;
+    --blue: #00aeff;
+    --pink: #ff00ea;
+  
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+    background: var(--grey);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: linear-gradient(to bottom, var(--blue), var(--pink));
+  }
+   */
+
+#loader{
+    transition: 0.8s;
+}
