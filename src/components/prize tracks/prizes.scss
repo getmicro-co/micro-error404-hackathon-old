@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
+
+.Prizes{
+    font-family: 'Poppins';
+    border-radius: 8px;
+    color: #fff;
+    // background-color: #c8ccf4;
+    // background: linear-gradient(90deg, #6ea4f7 0%, #b57cee 100%);
+    // background: linear-gradient(90deg, rgb(110, 185, 247) 0%, hsla(270, 77%, 71%, 1) 100%);
+    
+    background: linear-gradient(216deg, #253958 0%, #241968 88.98%), #C4C4C4;;
+    padding: 20px;
+    width: 32rem;
+    width: fit-content;
+    margin: 30px 10px;
+    text-align: left;
+    margin-top: 1.7rem;
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: #F1507B 2px 5px 12px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition:0.5s ease;
+}
+.Prizes:hover{
+    border-radius: 5px;
+    background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+    padding: 20px;
+    width: 32rem;
+    width: fit-content;
+    text-align: left;
+
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+
+
+.PrizeHeading h1{
+    font-family: 'Poppins' !important;
+    padding-top: 40px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.Prizes p{
+    color: rgb(246, 246, 246);
+}
+.Prizes .first{
+    color:#A239EA;
+}
+
+.Prizes .second{
+    color:#39A2DB;
+}
+
+.Prizes .third{
+    color:#FF616D;
+}
+
+.Prizes .fourth{
+    color:#3C8DAD;
+}
+
+.Prizes .fifth{
+    color:#BF1363;
+}
+
+.Prizes .sixth{
+    color:#FF96AD;
+}
+
+.Prizes .seventh{
+    color:#E4BAD4;
+}

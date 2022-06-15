@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+nav {
+  font-family: 'Poppins';
+  list-style-type: none;
+  height: 10vh;
+  font-size: 1.8rem;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  z-index: 10;
+  transition: 0.2s;
+  box-shadow: 0px 5px 10px rgba(76, 0, 255, 0.25);
+  img {
+
+    z-index: 1000000;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// Submenu
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.nav_submenu {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  font-weight: 300;
+  border-radius: 8px;
+  text-transform: none;
+  padding: 10px 6px;
+  font-size: 15px;
+    left: 48pc;
+    margin-top: 30px;
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    color: #ffff;
+    background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+}
+
+.resource-icons{
+  width: 25px;
+}
+
+.nav_submenu li a{
+  margin:0 0 0 7px;
+  text-decoration: none;
+  color: #ffff;
+}
+.nav_submenu li {
+  margin: 0;
+  width: 100%;
+  padding: 4px 2px;
+  align-items: center;
+}
+    
+.nav-submenu-item:hover {
+  background: #f1507b;
+  padding: 4px 2px;
+  border-radius: 10px;
+}
+
+
+// Navbar toggler
+.toggle-div{
+  text-align: right;
+  position: relative;
+  display: none;
+}
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  
+  .nav_bar{
+    position: relative;
+    box-shadow: 0px 17px 20px rgba(76, 0, 255, 0.92);
+  }
+  .nav-error404{
+    top: 25px;
+    margin-left: 10px!important;
+    width: 45% !important;
+    transform: rotate(0deg)!important;
+
+  }
+  .toggle-div{
+    cursor: pointer;
+    display: flex;
+  }
+  .nav-menu{
+    background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 9.7vh;
+    // left: -100%!important;
+    transition: all 0.5s ease!important;
+  }
+  .nav_submenu{
+    left: 35pc;
+    margin-top: -55px;
+    display: block;
+    width: 207px;
+  }
+  .nav_submenu li {
+    margin: 0 !important;
+    padding: 6px 2px!important;
+  }
+
+  nav ul{display: none;}
+  nav ul li {
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 0!important;
+    transition-duration: 0.5s;
+    margin: 0.75rem 44%!important;
+  }
+  .links{
+    text-align: center;
+    width: 100%;
+  }
+  .links:hover{
+    .nav-submenu{
+      display: block;
+      transition: 1s;
+    }
+    border-radius: 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    padding: 20px;
+    z-index: 1;
+  }
+
+
+  .toggler{
+    font-size: 7rem !important;
+    color: #ffff;
+    margin: 5rem;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+
+
+
+// navbar toggler end
+
+.nav-error404{
+  margin-top: -8px;
+  margin-left: 70px;
+  width: 10%;
+  // transform: rotate(-15deg);
+}
+.s-open,
+.s-close {
+  display: none;
+}
+.nav-inner {
+  width: 30%;
+}
+ul {
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: baseline;
+  height: 100%;
+}
+
+
+nav ul li {
+  display: inline-block;
+  padding: 20px 0;
+  margin:  0 0 0 4.5rem;
+}
+.links {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+}
+.links:hover {
+  color: hsla(344, 90%, 70%, 1);
+  // background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4;
+  // border-radius: 15px;
+  // padding: 5px;
+
+}
+a:link {
+  text-decoration: none;
+  padding: 1px;
+}
+
+@media (max-width: 470px) {
+  .ease {
+    background: #484848;
+    height: 75%;
+    opacity: 0.2;
+    pointer-events: none;
+  }
+  ul {
+    flex-direction: column;
+    padding: 30px 20;
+  }
+  .s-open {
+    display: inline;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+  }
+  .s-close {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}

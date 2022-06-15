@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+.typing-div{
+    margin: 3rem 0;
+    /* color: hsla(344, 90%, 70%, 1); */
+    color: #F1507B;
+
+}
+.typing-div h1{
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    font-family: 'Space Mono', monospace;
+}
+
+@media  (max-width: 570px){
+    .typing-div h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+@media  (max-width: 330px){   
+    .typing-div h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+  }
+ 

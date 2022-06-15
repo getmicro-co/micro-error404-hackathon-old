@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
+
+:root {
+  /* Colors */
+  --dark: #171a1b;
+  --light: #f7f7f7;
+  --grey: #a8a8a8;
+  --blue: #00aeff;
+  --pink: #ff00ea;
+
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  /* background: linear-gradient(to bottom, var(--blue), var(--pink)); */
+  background: linear-gradient(92.38deg, #7824AC 2.46%, #F42F96 93.57%), #C4C4C4;
+}
+
+
+
+.Whole_div {
+  background-repeat: repeat;
+  background-size: auto 100vh;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.mediaInfo {
+  /* margin-top: 10vh; */
+  background-size: auto 100vh;
+}
+.color_sectiom {
+  background-color: #121930;
+  padding-bottom: 5rem;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+
+}
+.Row {
+  text-align: center;
+}
+
+.info {
+  margin-top: 18vh;
+  color: white;
+}
+
+
+.d-image img {
+  /* width: 100%; */
+  position: relative;
+  transition: 0.3s;
+  top:-30px;
+  transition: top 0.2s linear;
+}
+.d-image img:hover {
+opacity: 0.9;
+top: -50px;
+}
+.logoSection {
+  text-align: center;
+  /* padding: 10vh 10vh 0 10vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh; */
+}
+.members {
+  padding: 0vh 10vh 0 10vh;
+}
+
+.aboutsection {
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);
+
+}
+
+
+.prizesection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  /* background: #f3effe; */
+
+}
+
+.tracksection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 10vh 0 10vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  /* background-color: #f3effe; */
+  /* background: #F2F3F2; */
+}
+
+.microsection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  margin-bottom: 10vh;
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);
+  
+}
+
+.timelinesection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  /* background-color: #f3effe; */
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);
+}
+
+.sponsorsection {
+  text-align: center;
+  padding: 1px 6vh 7vh;
+  margin: 14vh 14vh 0 14vh;
+  border-radius: 14px;
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+  padding: 2vh 18vh 8vh 18vh;
+}
+
+
+.sponsorSection {
+}
+
+.faqsection {
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  background:linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+
+}
+
+.faqsSection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 17vh 18vh 0 18vh;
+  margin-top: -16vh;
+}
+
+.teamsection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 14vh;
+  margin-bottom: 14vh;
+  /* background: #f3effe; */
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+
+}
+.judgesection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  margin-bottom: 14vh;
+  /* background: #f3effe; */
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+
+}
+.organizersection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  /* background: #f3effe; */
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+
+}
+.contactsection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 6vh 7vh;
+  margin: 1vh 14vh 0 14vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  /* background: #f3effe; */
+
+}
+
+
+.team{
+   text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.slant{
+  margin-top: 50px;
+}
+
+
+.slanted-div {
+  border-radius: 10px;
+  margin: 1vh 14vh;
+  position: relative;
+  padding: 10px 0;
+  background: #f3effe;
+  overflow: visible;
+  z-index: 0;
+}
+
+/* where the magic happens */
+.slanted-div:before, .slanted-div:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  /* transform-origin: right top;
+  transform: skewY(-3deg); */
+}
+
+.slanted-div:after {
+  bottom: 0;
+  /* transform-origin: right bottom;
+  transform: skewY(3deg); */
+}
+
+/* displays the content inside, as these settings in the parent breaks the effect */
+.slanted-div div {
+  text-align: center;
+  /* font-size: 1.5em; */
+  line-height: 1.5;
+}
+
+.Myfaqs{
+  margin: 50px 0 0 0;
+}
+
+.hr{
+    margin-bottom: 60px;
+    height: 5px;
+    width: 20%;
+    border-radius: 8px;
+    /* background: linear-gradient(90deg, #f76e92 0%, #b57cee 100%) */
+    background: linear-gradient(92.38deg, #7824AC 2.46%, #F42F96 93.57%);
+  }
+
+
+.contact{
+  margin: auto;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  
+  .aboutsection ,.timelinesection, .microsection{
+    margin: 3rem 3rem 10rem;
+  }
+  
+  .tracksection {
+    margin:  3rem ;
+    padding:1px 6vh 3vh;
+  }
+  .prizesection {
+    margin:  3rem ;
+    padding:1px 6vh 3vh;
+  }
+  .sponsorSection {
+    padding: 5rem;
+    margin: 3rem 3rem 10rem;
+  }
+  .teamsection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .judgesection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .organizersection{
+    margin: 3rem 3rem 10rem;
+    padding: 0  1rem 5rem;
+  }
+  .faqsection {
+    margin: 3rem 3rem 10rem;
+    padding: 1vh 0vh 3vh;
+  }
+
+  .contactsection{
+    margin: 3rem 3rem 10rem;
+    padding: 0;
+  }
+
+  .contactsection .form{
+    margin: 0;
+  }
+  
+  .info{
+    margin-top: 5vh;
+  }
+  .mediaInfo {
+    margin-top: 0;
+  }
+  .Whole_div {
+    background-size: auto 100vh;
+  }
+
+  .members {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logoSection {
+    text-align: center;
+    padding: 20vh 0vh 0 0vh;
+  }
+}

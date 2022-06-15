@@ -1,0 +1,171 @@
+.footer {
+  
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+  margin-top: 50px;
+  color: #F1507B;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer h1{
+  color: #ffffff;
+  font-weight: 900;
+}
+.tagline{
+  width: 50%;
+    margin: 0 100px;
+}
+
+.footer h5{
+  // text-align: left;
+  color: #fff;
+  font-size:14px;
+}
+
+.Desc{
+  color: #ffffff;
+  font-size: 17px;
+}
+
+
+.footer p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+.footer a {
+  color:#ffffff;
+  font-size: 17px;
+}
+.footer a:hover {
+  color:hsla(344, 90%, 70%, 1);
+}
+.footer img {
+  width: 30%;
+  // transform: rotate(-15deg);
+  margin-bottom: -80px;
+}
+.footer_info a{
+  padding: 20px 0;
+  color: #F1507B;
+}
+
+
+.footer_info {
+  padding: 20px 0;
+  color: hsla(344, 90%, 70%, 1);
+  background-color: rgb(32, 32, 32);
+}
+
+
+.footer-container{
+  display: flex;
+  // 0px -10px 10px rgb(76 0 255 / 25%)
+  box-shadow: 0px -10px 10px rgba(76, 0, 255, 0.25);
+}
+
+.about {
+  padding: 25px 20px;
+  display: flex; 
+  // flex: 0.5;
+  width: 25%;
+  flex-direction: column;
+}
+
+.about hr{
+  margin: 5px 0 15px 0;
+
+}
+
+ul{
+  list-style: none;
+}
+
+
+.social-icon {
+  padding-top: 10px 20px;
+  flex-direction: column;
+
+}
+.Volunteer{
+  margin: 0 45px;
+}
+
+.Register_a {
+  width: 25%;
+  text-transform: capitalize;
+  padding: 30px 0;
+  background-color: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%);;
+}
+.Register_a ul{
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  height: auto;
+}
+.Register_a li{
+  margin: 10px 0 0 70px ;
+}
+
+
+.Register_a a {
+  flex-direction: column;
+  margin:0  10px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .footer-container{
+    padding: 50px 0px 20px 0;
+    box-shadow: 0px -10px 10px rgba(76, 0, 255, 0.9);
+  }
+  .Register_a a {
+    margin:0 0;
+    text-align: left;
+  }
+  .Register_a li{
+    margin: 6px 10px;
+  }
+  .tagline{
+    width: 100%;
+    margin: 0;
+  }
+  .Volunteer {
+    margin-top: 5px;
+  }
+  .social-icon {
+    padding: 0px;
+  }
+}
+
+
+.template {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  justify-content: center;
+  padding-top: 4px;
+  &-left{
+    width: 80%;
+  }
+  img {
+    width: 15px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  p {
+    margin: 0 auto;
+    color: rgb(20, 6, 100);
+    @media (max-width: 570px) {
+      font-size: 14px;
+    }
+  }
+  a {
+    color: #43b7be;
+  }
+}

@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  margin: 0 13vh;
+  align-items: center;
+  background: linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%), #FFFFFF;;
+  border-radius: 10px;
+  box-shadow: rgb(255 109 215 / 30%) 3px 5px 38px, rgb(155 0 255 / 22%) 3px 3px 12px;
+  z-index: 1;
+  justify-content: center;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+  height: 100%;
+  /* background:linear-gradient(90deg, hsla(344, 90%, 70%, 1) 0%, hsla(270, 77%, 71%, 1) 100%) ; */
+  background:linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%), #FFFFFF;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%), #FFFFFF;;
+  position: absolute;
+}
+
+.circle.one {
+  width: 130px;
+  height: 130px;
+  top: 130px;
+  right: -40px;
+}
+
+.circle.two {
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  right: 30px;
+}
+
+.contact-form:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  /* background: hsla(344, 90%, 70%, 1); */
+  background:linear-gradient(97.88deg, #253958 0.77%, #1E263E 56.08%), #FFFFFF;;
+  transform: rotate(45deg);
+  top: 50px;
+  left: -13px;
+}
+
+form {
+  padding:10rem 2.2rem 4rem;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 2rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+textarea.input {
+  padding: 1.5rem 1.2rem;
+  min-height: 150px;
+  border-radius: 12px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.input-container ::placeholder {
+  position: absolute;
+  left: 15px;
+  /* transform: translateY(-50%); */
+  padding: 0 0.4rem;
+  color: #fafafa;
+  font-size: 1.5rem;
+  font-weight: 400;
+  pointer-events: none;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.input-container.textarea::placeholder {
+  top: 1rem;
+  /* transform: translateY(0); */
+}
+
+.btn {
+  padding: 1.5rem 1rem;
+  border: 2px solid #fafafa;
+  line-height: 1;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: 0;
+  width: 22rem;
+  height: 6rem;
+  border-radius: 19px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(92.38deg, #7824AC 2.46%, #F42F96 93.57%), #C4C4C4;
+  font-weight: 300;
+  position: relative;
+}
+.btn-a{
+  color:  #fff;
+}
+.btn:hover{
+  top: -2px;
+  color: rgb(215, 215, 215);
+  opacity: 0.9;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.input-container span {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  /* transform: translateY(-50%); */
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+  color: transparent;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.input-container span:before,
+.input-container span:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  opacity: 0;
+  transition: 0.3s;
+  height: 5px;
+  background-color: #121930;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+
+.input-container span:before {
+  left: 50%;
+}
+
+.input-container span:after {
+  right: 50%;
+}
+
+.input-container.focus label {
+  top: 0;
+  /* transform: translateY(-50%); */
+  left: 25px;
+  font-size: 0.8rem;
+}
+
+.input-container.focus span:before,
+.input-container.focus span:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.contactInfo{
+  margin-top: 8vh;
+}
+
+.contact-info {
+  padding: 8rem 8rem 4rem 8rem;
+  position: relative;
+}
+
+.contact-info .title {
+  color: #000000;
+}
+
+.text {
+  color: #fff;
+  margin: 1.5rem 0 2rem 0;
+  text-align: left;
+}
+
+.information {
+  display: flex;
+  color: rgb(0, 0, 0);
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem;
+}
+.information p {
+  
+  font-size: 1.65rem;
+}
+
+
+.icon {
+  font-size: 35px !important;
+  color: #ffffff ;
+  /* border-radius: 50%; */
+  /* background: linear-gradient(216deg, #722E87 0%, #241968 88.98%), linear-gradient(216deg, #A190F1 0%, #241968 88.98%), #C4C4C4; */
+  margin-right: 0.7rem;
+}
+
+.social-media {
+  padding: 2rem 0 0 0;
+  text-align: center;
+}
+
+.social-media p {
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-info:before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 100px;
+  border: 22px solid #c8ccf4;
+  border-radius: 50%;
+  top: -7px;
+  right: 50px;
+  opacity: 0.3;
+}
+
+
+
+.square {
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(181%, 11%);
+  opacity: 0.2;
+}
+
+/* 
+@media screen and (max-width:990px) {
+  .form{
+    width: 100%;
+    margin: 0;
+  }
+} */
+
+/* 
+@media (max-width: 850px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  .square {
+    transform: translate(140%, 43%);
+    height: 350px;
+  }
+
+  .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+
+  .text {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .social-media {
+    padding: 1.5rem 0 0 0;
+  }
+} */
+
+@media (max-width: 380px) {
+  .form{
+    margin: 0 6vh !important;
+    grid-template-columns: 1fr !important;
+  }
+   
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
